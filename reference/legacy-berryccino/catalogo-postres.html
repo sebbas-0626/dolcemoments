@@ -1,0 +1,2122 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,400..800,100,1;1,9..144,400..800,100,1&amp;family=Nunito+Sans:ital,wght@0,300..900;1,300..900&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;font-optical-sizing:auto;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "inverse-primary": "#ffb2be", "cream-champagne": "#FAF6F0", "strawberry-blush": "#F1B2BD", "outline-variant": "#dfbfc3", "tertiary-container": "#90702e", "strawberry-rose": "#C93B60", "primary": "#ab274e", "surface-bright": "#fdf9f3", "chocolate-espresso": "#2B1E1A", "surface-container": "#f1ede7", "primary-container": "#cc4165", "cream-surface": "#FDFBF7", "on-surface-variant": "#4A3236", "on-primary-container": "#fffbff", "surface-container-highest": "#e6e2dc", "cream-subtle": "#ECE8E8", "surface-variant": "#e6e2dc", "surface": "#fdf9f3", "surface-container-high": "#ebe8e2", "on-primary-fixed-variant": "#8d0b39", "on-background": "#1c1c18", "surface-tint": "#ae2a50", "surface-container-low": "#f7f3ed", "primary-fixed-dim": "#ffb2be", "on-error": "#ffffff", "tertiary-fixed": "#ffdea5", "inverse-on-surface": "#f4f0ea", "surface-container-lowest": "#ffffff", "error-container": "#ffdad6", "chocolate-deep": "#1C1311", "on-tertiary-fixed-variant": "#5d4201", "on-secondary-fixed-variant": "#53433e", "surface-dim": "#dddad4", "on-secondary-container": "#705f59", "secondary-container": "#f3dbd4", "secondary": "#6c5b55", "error": "#ba1a1a", "inverse-surface": "#31302d", "on-tertiary": "#ffffff", "on-tertiary-fixed": "#261900", "on-primary-fixed": "#400015", "outline": "#6E5559", "accent-gold-light": "#E2CA94", "accent-gold-deep": "#8A6B2C", "on-secondary-fixed": "#251915", "secondary-fixed-dim": "#d8c2bb", "on-secondary": "#ffffff", "on-error-container": "#93000a", "on-tertiary-container": "#fffbff", "secondary-fixed": "#f5ddd7", "tertiary-fixed-dim": "#e9c176", "on-surface": "#1c1c18", "primary-fixed": "#ffd9de", "accent-gold": "#C5A059", "tertiary": "#755717", "on-primary": "#ffffff", "background": "#fdf9f3" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-xl": "2.5rem", "space-2xl": "4rem", "space-sm": "0.5rem", "gutter-mobile": "1rem", "space-md": "1rem", "gutter": "1.5rem", "space-lg": "1.5rem", "margin-mobile": "1.25rem", "margin": "3rem", "space-xs": "0.25rem" }, "fontFamily": { "label-lg": ["Nunito Sans"], "body-sm": ["Nunito Sans"], "headline-sm": ["Fraunces", "Georgia", "serif"], "label-md": ["Nunito Sans"], "display-lg": ["Fraunces", "Georgia", "serif"], "title-lg": ["Nunito Sans"], "body-md": ["Nunito Sans"], "display-lg-mobile": ["Fraunces", "Georgia", "serif"], "title-md": ["Nunito Sans"], "headline-lg-mobile": ["Fraunces", "Georgia", "serif"], "headline-lg": ["Fraunces", "Georgia", "serif"], "body-lg": ["Nunito Sans"], "label-caps": ["Nunito Sans"], "headline-md": ["Fraunces", "Georgia", "serif"] }, "fontSize": { "label-lg": ["15px", { "lineHeight": "22px", "letterSpacing": "0.005em", "fontWeight": "700" }], "body-sm": ["14px", { "lineHeight": "22px", "letterSpacing": "0.005em", "fontWeight": "400" }], "headline-sm": ["20px", { "lineHeight": "28px", "letterSpacing": "0em", "fontWeight": "600" }], "label-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0.02em", "fontWeight": "700" }], "display-lg": ["52px", { "lineHeight": "60px", "letterSpacing": "-0.005em", "fontWeight": "600" }], "title-lg": ["19px", { "lineHeight": "27px", "letterSpacing": "0em", "fontWeight": "700" }], "body-md": ["16px", { "lineHeight": "26px", "letterSpacing": "0.005em", "fontWeight": "400" }], "display-lg-mobile": ["34px", { "lineHeight": "42px", "letterSpacing": "0em", "fontWeight": "600" }], "title-md": ["16px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "700" }], "headline-lg-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "0em", "fontWeight": "600" }], "headline-lg": ["38px", { "lineHeight": "46px", "letterSpacing": "0em", "fontWeight": "600" }], "body-lg": ["18px", { "lineHeight": "30px", "letterSpacing": "0.005em", "fontWeight": "400" }], "label-caps": ["12px", { "lineHeight": "18px", "letterSpacing": "0.1em", "fontWeight": "700" }], "headline-md": ["26px", { "lineHeight": "34px", "letterSpacing": "0em", "fontWeight": "600" }] } } } }</script><style id="berryccino-shell">
+/* ============================================================
+   Berryccino — Site Shell
+   Carrito lateral + navegación móvil + dropdowns de escritorio
+   ============================================================ */
+
+.bc-root {
+  --bc-rose: #c93b60;
+  --bc-rose-deep: #ab274e;
+  --bc-rose-blush: #f1b2bd;
+  --bc-espresso: #2b1e1a;
+  --bc-deep: #1c1311;
+  --bc-cream: #fdfbf7;
+  --bc-champagne: #faf6f0;
+  --bc-subtle: #ece8e8;
+  --bc-body: #4a3236;
+  --bc-secondary: #6c5b55;
+  --bc-gold: #c5a059;
+  --bc-serif: 'Fraunces', Georgia, serif;
+  --bc-sans: 'Nunito Sans', system-ui, sans-serif;
+  --bc-shadow-3: 0 20px 48px -8px rgba(43, 30, 26, 0.18);
+  --bc-shadow-2: 0 16px 36px -6px rgba(43, 30, 26, 0.1);
+  font-family: var(--bc-sans);
+}
+
+/* ---------- Overlay compartido ---------- */
+.bc-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(28, 19, 17, 0.42);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.32s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 90;
+}
+.bc-overlay.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* ---------- Carrito lateral ---------- */
+.bc-drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100dvh;
+  width: 100%;
+  max-width: 440px;
+  background: var(--bc-cream);
+  box-shadow: var(--bc-shadow-3);
+  transform: translateX(101%);
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 95;
+  display: flex;
+  flex-direction: column;
+}
+.bc-drawer.is-open {
+  transform: translateX(0);
+}
+
+.bc-drawer__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 18px 20px 14px;
+  border-bottom: 1px solid rgba(43, 30, 26, 0.09);
+  flex-shrink: 0;
+}
+.bc-drawer__title {
+  font-family: var(--bc-serif);
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--bc-espresso);
+  margin: 0;
+  letter-spacing: 0;
+}
+.bc-drawer__count {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--bc-rose);
+  margin: 0;
+}
+
+.bc-iconbtn {
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 0;
+  color: var(--bc-body);
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.bc-iconbtn:hover {
+  background: var(--bc-subtle);
+  color: var(--bc-espresso);
+}
+.bc-iconbtn .material-symbols-outlined {
+  font-size: 20px;
+}
+
+/* Barra de envío gratis */
+.bc-ship {
+  padding: 14px 20px 12px;
+  background: var(--bc-champagne);
+  border-bottom: 1px solid rgba(43, 30, 26, 0.07);
+  flex-shrink: 0;
+}
+.bc-ship__txt {
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--bc-body);
+  margin: 0 0 8px;
+}
+.bc-ship__txt strong {
+  color: var(--bc-espresso);
+  font-weight: 700;
+}
+.bc-ship__bar {
+  height: 6px;
+  border-radius: 999px;
+  background: rgba(43, 30, 26, 0.1);
+  overflow: hidden;
+}
+.bc-ship__fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--bc-rose-blush), var(--bc-rose));
+  transition: width 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Lista de items */
+.bc-items {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  -webkit-overflow-scrolling: touch;
+}
+.bc-item {
+  display: grid;
+  grid-template-columns: 76px 1fr;
+  gap: 14px;
+  padding: 12px;
+  background: var(--bc-cream);
+  border: 1px solid rgba(43, 30, 26, 0.07);
+  border-radius: 12px;
+  box-shadow: 0 6px 18px -6px rgba(43, 30, 26, 0.07);
+}
+.bc-item__img {
+  width: 76px;
+  height: 92px;
+  border-radius: 10px;
+  object-fit: cover;
+  background: var(--bc-subtle);
+}
+.bc-item__name {
+  font-family: var(--bc-serif);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--bc-espresso);
+  margin: 0 0 2px;
+}
+.bc-item__var {
+  font-size: 12px;
+  line-height: 1.45;
+  color: var(--bc-secondary);
+  margin: 0 0 8px;
+}
+.bc-item__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.bc-item__price {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--bc-deep);
+  white-space: nowrap;
+}
+
+/* Stepper */
+.bc-step {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid rgba(43, 30, 26, 0.15);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--bc-cream);
+}
+.bc-step button {
+  width: 28px;
+  height: 28px;
+  border: 0;
+  background: transparent;
+  color: var(--bc-espresso);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.18s;
+}
+.bc-step button:hover:not(:disabled) {
+  background: var(--bc-subtle);
+}
+.bc-step button:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+.bc-step button .material-symbols-outlined {
+  font-size: 16px;
+}
+.bc-step__val {
+  min-width: 30px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--bc-espresso);
+}
+.bc-item__rm {
+  border: 0;
+  background: transparent;
+  color: var(--bc-secondary);
+  cursor: pointer;
+  padding: 2px;
+  border-radius: 6px;
+  display: inline-flex;
+  transition: color 0.18s, background 0.18s;
+}
+.bc-item__rm:hover {
+  color: var(--bc-rose);
+  background: rgba(201, 62, 96, 0.08);
+}
+.bc-item__rm .material-symbols-outlined {
+  font-size: 17px;
+}
+
+/* Estado vacío */
+.bc-empty {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 6px;
+  padding: 40px 32px;
+}
+.bc-empty__icon {
+  width: 76px;
+  height: 76px;
+  border-radius: 999px;
+  background: var(--bc-champagne);
+  border: 1px solid rgba(43, 30, 26, 0.07);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--bc-rose);
+  margin-bottom: 10px;
+}
+.bc-empty__icon .material-symbols-outlined {
+  font-size: 30px;
+}
+.bc-empty h3 {
+  font-family: var(--bc-serif);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--bc-espresso);
+  margin: 0;
+}
+.bc-empty p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--bc-secondary);
+  margin: 0 0 18px;
+  max-width: 27ch;
+}
+
+/* Pie: cupón + totales + CTAs */
+.bc-foot {
+  flex-shrink: 0;
+  border-top: 1px solid rgba(43, 30, 26, 0.09);
+  padding: 14px 20px 18px;
+  background: var(--bc-champagne);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.bc-coupon {
+  display: flex;
+  gap: 8px;
+}
+.bc-coupon input {
+  flex: 1 1 auto;
+  min-width: 0;
+  background: var(--bc-cream);
+  border: 1px solid rgba(43, 30, 26, 0.14);
+  border-radius: 8px;
+  padding: 9px 12px;
+  font-family: var(--bc-sans);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--bc-espresso);
+  outline: none;
+}
+.bc-coupon input::placeholder {
+  color: var(--bc-secondary);
+  letter-spacing: 0.02em;
+  text-transform: none;
+  font-weight: 400;
+}
+.bc-coupon input:focus {
+  border-color: rgba(201, 62, 96, 0.5);
+  box-shadow: 0 0 0 3px rgba(201, 62, 96, 0.14);
+}
+.bc-coupon button {
+  flex-shrink: 0;
+  border: 0;
+  border-radius: 8px;
+  background: var(--bc-espresso);
+  color: var(--bc-champagne);
+  font-family: var(--bc-sans);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.bc-coupon button:hover {
+  background: var(--bc-deep);
+}
+.bc-coupon-msg {
+  font-size: 12px;
+  line-height: 1.4;
+  margin: -4px 0 0;
+  font-weight: 700;
+}
+.bc-coupon-msg.ok {
+  color: #2f6b4f;
+}
+.bc-coupon-msg.err {
+  color: var(--bc-rose-deep);
+}
+
+.bc-totals {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.bc-totals dl {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 4px 12px;
+}
+.bc-totals dt {
+  font-size: 13px;
+  color: var(--bc-secondary);
+}
+.bc-totals dd {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--bc-espresso);
+  text-align: right;
+}
+.bc-totals dt.is-discount,
+.bc-totals dd.is-discount {
+  color: #2f6b4f;
+}
+.bc-totals__grand {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  padding-top: 9px;
+  margin-top: 3px;
+  border-top: 1px solid rgba(43, 30, 26, 0.12);
+}
+.bc-totals__grand span:first-child {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--bc-espresso);
+}
+.bc-totals__grand strong {
+  font-size: 21px;
+  font-weight: 700;
+  color: var(--bc-deep);
+  letter-spacing: 0;
+}
+.bc-totals__grand small {
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--bc-secondary);
+  margin-left: 3px;
+}
+
+.bc-cta {
+  width: 100%;
+  border: 0;
+  border-radius: 8px;
+  padding: 13px 16px;
+  font-family: var(--bc-sans);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.005em;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: background 0.2s, transform 0.12s, box-shadow 0.2s;
+}
+.bc-cta .material-symbols-outlined {
+  font-size: 18px;
+}
+.bc-cta--primary {
+  background: var(--bc-rose);
+  color: #fff;
+  box-shadow: 0 8px 20px -6px rgba(201, 62, 96, 0.5);
+}
+.bc-cta--primary:hover {
+  background: var(--bc-rose-deep);
+}
+.bc-cta--primary:active {
+  transform: translateY(1px);
+}
+.bc-cta--dark {
+  background: var(--bc-espresso);
+  color: var(--bc-champagne);
+}
+.bc-cta--dark:hover {
+  background: var(--bc-deep);
+}
+.bc-cta--ghost {
+  background: transparent;
+  border: 1px solid rgba(43, 30, 26, 0.2);
+  color: var(--bc-espresso);
+}
+.bc-cta--ghost:hover {
+  background: var(--bc-subtle);
+}
+.bc-note {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--bc-secondary);
+  text-align: center;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.bc-note .material-symbols-outlined {
+  font-size: 14px;
+  color: var(--bc-gold);
+}
+
+/* ---------- Navegación móvil ---------- */
+.bc-mnav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100dvh;
+  width: 86%;
+  max-width: 360px;
+  background: var(--bc-cream);
+  box-shadow: var(--bc-shadow-3);
+  transform: translateX(-101%);
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 95;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.bc-mnav.is-open {
+  transform: translateX(0);
+}
+.bc-mnav__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px 18px 14px;
+  border-bottom: 1px solid rgba(43, 30, 26, 0.09);
+  flex-shrink: 0;
+}
+.bc-mnav__brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--bc-serif);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--bc-espresso);
+}
+.bc-mnav__brand img {
+  height: 26px;
+  width: auto;
+}
+.bc-mnav__body {
+  padding: 8px 12px 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+.bc-mnav__item {
+  border-bottom: 1px solid rgba(43, 30, 26, 0.06);
+}
+.bc-mnav__link {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background: transparent;
+  border: 0;
+  padding: 15px 8px;
+  font-family: var(--bc-serif);
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--bc-espresso);
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+}
+.bc-mnav__link .material-symbols-outlined {
+  font-size: 18px;
+  color: var(--bc-rose);
+  transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.bc-mnav__item.is-expanded .bc-mnav__link .material-symbols-outlined {
+  transform: rotate(180deg);
+}
+.bc-mnav__sub {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.32s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.bc-mnav__item.is-expanded .bc-mnav__sub {
+  grid-template-rows: 1fr;
+}
+.bc-mnav__subinner {
+  overflow: hidden;
+}
+.bc-mnav__sub a {
+  display: block;
+  padding: 11px 8px 11px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--bc-body);
+  text-decoration: none;
+  border-left: 2px solid rgba(201, 62, 96, 0.22);
+  margin-left: 8px;
+}
+.bc-mnav__sub a:hover {
+  color: var(--bc-rose-deep);
+  border-left-color: var(--bc-rose);
+}
+.bc-mnav__sub a.is-all {
+  color: var(--bc-rose-deep);
+  font-weight: 700;
+  margin-top: 4px;
+  border-top: 1px solid rgba(43, 30, 26, 0.07);
+  border-left-color: transparent;
+  padding-top: 13px;
+}
+.bc-mnav__foot {
+  padding: 16px 18px 22px;
+  border-top: 1px solid rgba(43, 30, 26, 0.09);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-shrink: 0;
+}
+.bc-mnav__phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 999px;
+  background: var(--bc-espresso);
+  color: var(--bc-champagne);
+  padding: 11px 16px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.bc-mnav__phone .material-symbols-outlined {
+  font-size: 17px;
+  color: var(--bc-gold);
+}
+.bc-mnav__meta {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  font-size: 12px;
+  color: var(--bc-secondary);
+}
+.bc-mnav__meta a {
+  color: inherit;
+  text-decoration: none;
+}
+.bc-mnav__meta a:hover {
+  color: var(--bc-rose-deep);
+}
+
+/* ---------- Toast ---------- */
+.bc-toast {
+  position: fixed;
+  left: 50%;
+  bottom: 28px;
+  transform: translate(-50%, 140%);
+  background: var(--bc-espresso);
+  color: var(--bc-champagne);
+  border-radius: 999px;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 0 16px 36px -10px rgba(28, 19, 17, 0.5);
+  transition: transform 0.42s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 120;
+  pointer-events: none;
+  max-width: calc(100vw - 32px);
+}
+.bc-toast.is-visible {
+  transform: translate(-50%, 0);
+}
+.bc-toast .material-symbols-outlined {
+  font-size: 18px;
+  color: var(--bc-gold);
+}
+.bc-toast__act {
+  background: transparent;
+  border: 0;
+  border-bottom: 1.5px solid var(--bc-gold);
+  color: var(--bc-gold);
+  font-family: var(--bc-sans);
+  font-size: 13px;
+  font-weight: 700;
+  padding: 0 0 1px;
+  cursor: pointer;
+}
+
+/* ---------- Dropdown escritorio ---------- */
+.bc-dd {
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.22s ease, transform 0.22s cubic-bezier(0.16, 1, 0.3, 1),
+    visibility 0.22s;
+  pointer-events: none;
+}
+.bc-nav-item:hover .bc-dd,
+.bc-nav-item:focus-within .bc-dd {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+.bc-nav-item__btn .material-symbols-outlined {
+  font-size: 16px;
+  transition: transform 0.24s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.bc-nav-item:hover .bc-nav-item__btn .material-symbols-outlined,
+.bc-nav-item:focus-within .bc-nav-item__btn .material-symbols-outlined {
+  transform: rotate(180deg);
+}
+.bc-dd__panel {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: -18px;
+  min-width: 268px;
+  background: rgba(253, 251, 247, 0.97);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(43, 30, 26, 0.08);
+  border-radius: 14px;
+  box-shadow: 0 20px 48px -12px rgba(43, 30, 26, 0.22);
+  padding: 8px;
+}
+.bc-dd__panel::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 0;
+  right: 0;
+  height: 10px;
+}
+.bc-dd__eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--bc-rose);
+  padding: 8px 12px 6px;
+}
+.bc-dd__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 11px;
+  padding: 9px 12px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background 0.18s;
+}
+.bc-dd__item:hover {
+  background: var(--bc-champagne);
+}
+.bc-dd__item .material-symbols-outlined {
+  font-size: 18px;
+  color: var(--bc-rose);
+  margin-top: 1px;
+  flex-shrink: 0;
+}
+.bc-dd__item b {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--bc-espresso);
+  line-height: 1.35;
+}
+.bc-dd__item span {
+  display: block;
+  font-size: 12px;
+  color: var(--bc-secondary);
+  line-height: 1.45;
+}
+.bc-dd__all {
+  display: block;
+  margin-top: 4px;
+  padding: 10px 12px;
+  border-top: 1px solid rgba(43, 30, 26, 0.08);
+  border-radius: 0 0 8px 8px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--bc-rose-deep);
+  text-decoration: none;
+  transition: background 0.18s;
+}
+.bc-dd__all:hover {
+  background: var(--bc-champagne);
+}
+
+/* ---------- Botón hamburguesa (inyectado en el header) ---------- */
+.bc-burger {
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  border: 0;
+  background: transparent;
+  color: var(--bc-body);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.bc-burger:hover {
+  background: var(--bc-subtle);
+  color: var(--bc-espresso);
+}
+.bc-burger .material-symbols-outlined {
+  font-size: 22px;
+}
+
+@media (max-width: 1279px) {
+  .bc-burger {
+    display: inline-flex;
+  }
+}
+
+/* Scroll lock */
+body.bc-locked {
+  overflow: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bc-overlay,
+  .bc-drawer,
+  .bc-mnav,
+  .bc-toast,
+  .bc-dd,
+  .bc-mnav__sub,
+  .bc-ship__fill {
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .bc-item {
+    grid-template-columns: 62px 1fr;
+  }
+  .bc-item__img {
+    width: 62px;
+    height: 76px;
+  }
+}
+
+
+/* ---------- Tarjeta clicable (stretched link) ---------- */
+.bc-card-actions {
+  position: relative;
+  z-index: 3;
+}
+.bc-card-wish {
+  z-index: 3;
+}
+.bc-card-link::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  border-radius: inherit;
+}
+.bc-card-link:focus-visible {
+  outline: none;
+}
+.bc-card-link:focus-visible::after {
+  outline: 3px solid var(--bc-rose);
+  outline-offset: 3px;
+}
+@media (hover: hover) {
+  .bc-card-link:hover::after {
+    background: rgba(43, 30, 26, 0.03);
+  }
+}
+</style>
+</head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-cream-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(43,30,26,0.06)]"><div class="bg-chocolate-espresso py-1.5 px-margin text-center"><p class="font-label-caps text-label-caps text-cream-champagne flex items-center justify-center gap-space-xs"><span class="text-accent-gold">✨</span><span>Entrega el mismo día en Nueva York &amp; Brooklyn | Frescura artesanal garantizada</span><span class="text-accent-gold">✨</span></p></div><div class="h-20 max-w-[1360px] mx-auto px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><a class="flex items-center gap-space-sm" data-path="catalogo" href="#"><img alt="DolceMoments" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Xd0c5IKKylahsQnqaZP4bl3zLvTHZTw3a6JbwTTelABrTiYaGWU5va12ymBpFch3TZ4jA2KV7dN0i0uT6ebgvt58Uj6xLeDdZwDe5ea7tQUi8YzPfgG7v2R0Q2n4pCPLX7M4urs-3GG7IpZYlPG3YNmZmn1kGDYgyhjIZggS7FC4rT4OtbGSLh7UWXpmr4MPeMouEeGKCO2njzzrg6wh9R50m-qqjQbiRPfdZB9wUxSaqyHWizA1R1L8TV"/><span class="font-headline-sm text-headline-sm text-chocolate-espresso tracking-tight hidden sm:inline-block">DolceMoments</span></a></div><nav class="bc-nav hidden xl:flex items-center gap-space-lg" data-active-classes="text-primary font-bold"><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-chocolate-espresso transition-colors" data-path="catalogo" data-group="catalogo" href="#">Catálogo<//a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-chocolate-espresso transition-colors" data-path="postres-dulces" href="#">Postres &amp; Dulces</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-chocolate-espresso transition-colors" data-path="detalle-de-producto" href="#">Detalle de Producto</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-chocolate-espresso transition-colors" data-path="por-ocasion" data-group="por" href="#">Por Ocasión<//a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-chocolate-espresso transition-colors" data-path="mismo-dia-contacto" href="#">Mismo Día &amp; Contacto</a></nav><div class="flex items-center gap-space-md"><a class="hidden lg:flex items-center gap-space-xs px-space-md py-1.5 rounded-full bg-cream-champagne text-chocolate-espresso hover:bg-secondary-container hover:text-on-secondary-container transition-colors shadow-[0_1px_4px_rgba(43,30,26,0.06)]" href="tel:+13156642576"><span class="material-symbols-outlined text-[16px] text-tertiary">call</span><span class="font-label-md text-label-md tracking-wider">+1 (315) 664-2576</span></a><button aria-label="Buscar en tienda" class="w-9 h-9 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">search</span></button><a aria-label="Mi cuenta" class="w-9 h-9 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="mi-cuenta" href="#"><span class="material-symbols-outlined text-[20px]">person_outline</span></a><button data-bc-cartbtn aria-label="Bolsa de compras" class="relative w-9 h-9 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">shopping_bag</span><span aria-hidden="true" class="absolute top-0.5 right-0.5 w-[18px] h-[18px] rounded-full bg-strawberry-rose text-on-primary font-label-caps text-[11px] flex items-center justify-center shadow-sm" data-bc-cartcount>0</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-20rem)]"><div class="flex flex-col w-full">
+<!-- Interactive Toast Notification Element -->
+<div class="fixed bottom-8 right-8 z-50 transform translate-y-32 opacity-0 pointer-events-none transition-all duration-500 ease-out flex items-center gap-space-md bg-chocolate-espresso text-cream-champagne px-space-lg py-space-md rounded-xl shadow-2xl" id="cart-toast">
+<div class="w-8 h-8 rounded-full bg-strawberry-rose flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-[18px]">check</span>
+</div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-cream-champagne">Pieza gourmet añadida</span>
+<span class="font-body-sm text-body-sm text-cream-subtle/80" id="cart-toast-message">Selección agregada a tu bolsa con éxito.</span>
+</div>
+</div>
+<!-- Hero Header Section -->
+<section class="relative w-full overflow-hidden bg-gradient-to-b from-cream-champagne via-surface to-surface-container-low px-margin py-space-2xl md:py-24">
+<!-- Subtle Ambient Glow Rings -->
+<div class="absolute -top-24 left-1/2 -translate-x-1/2 w-[720px] h-[360px] bg-strawberry-blush/20 blur-[110px] pointer-events-none rounded-full"></div>
+<div class="absolute top-1/3 -right-24 w-80 h-80 bg-accent-gold-light/25 blur-[90px] pointer-events-none rounded-full"></div>
+<div class="relative max-w-[1360px] mx-auto flex flex-col items-center text-center">
+<!-- High-Fashion Eyebrow Badge -->
+<div class="inline-flex items-center gap-space-xs px-space-md py-1.5 rounded-full bg-cream-surface/90 text-chocolate-espresso shadow-[0_2px_12px_rgba(43,30,26,0.04)] mb-space-lg">
+<span class="text-accent-gold font-body-sm text-[13px]">✦</span>
+<span class="font-label-caps text-label-caps text-secondary tracking-widest uppercase">Colección Exclusiva de Repostería Fina</span>
+<span class="text-accent-gold font-body-sm text-[13px]">✦</span>
+</div>
+<!-- Main Headline -->
+<h1 class="font-headline-lg md:font-display-lg text-headline-lg md:text-display-lg text-chocolate-espresso tracking-tight max-w-4xl">
+        Postres &amp; Dulces Gourmet de Autor
+      </h1>
+<!-- Elegant Subtitle -->
+<p class="mt-space-md max-w-2xl font-body-lg text-body-lg text-secondary leading-relaxed">
+        Creaciones artesanales que fusionan el arte de la alta repostería francesa con fresas frescas de selección exclusiva y chocolate belga Callebaut.
+      </p>
+<!-- Editorial Stats Strip -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-space-lg max-w-3xl w-full mt-space-xl pt-space-xl">
+<div class="flex flex-col items-center">
+<span class="font-headline-sm text-headline-sm text-primary">100%</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase mt-1">Chocolate Callebaut</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="font-headline-sm text-headline-sm text-chocolate-espresso">Mismo Día</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase mt-1">Entrega NYC &amp; BK</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="font-headline-sm text-headline-sm text-tertiary">24K Gold</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase mt-1">Láminas Comestibles</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="font-headline-sm text-headline-sm text-chocolate-espresso">Hecho a Mano</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase mt-1">Taller de Brooklyn</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Filter Bar Section -->
+<section class="sticky top-20 z-40 bg-surface/90 backdrop-blur-md shadow-[0_4px_16px_rgba(43,30,26,0.03)] py-space-md">
+<div class="max-w-[1360px] mx-auto px-margin flex flex-col md:flex-row items-center justify-between gap-space-md">
+<!-- Filter Chips -->
+<div class="flex items-center gap-space-xs overflow-x-auto w-full md:w-auto pb-1 md:pb-0 scrollbar-none" id="filter-container">
+<button class="filter-pill whitespace-nowrap px-space-lg py-2 rounded-full font-label-md text-label-md transition-all duration-300 bg-chocolate-espresso text-cream-champagne shadow-sm" data-filter="all" type="button">
+          Ver Todo
+        </button>
+<button class="filter-pill whitespace-nowrap px-space-lg py-2 rounded-full font-label-md text-label-md transition-all duration-300 bg-cream-surface text-chocolate-espresso hover:bg-secondary-container" data-filter="pasteles" type="button">
+          Pasteles de Fresas
+        </button>
+<button class="filter-pill whitespace-nowrap px-space-lg py-2 rounded-full font-label-md text-label-md transition-all duration-300 bg-cream-surface text-chocolate-espresso hover:bg-secondary-container" data-filter="cajas" type="button">
+          Cajas de Letras &amp; Números
+        </button>
+<button class="filter-pill whitespace-nowrap px-space-lg py-2 rounded-full font-label-md text-label-md transition-all duration-300 bg-cream-surface text-chocolate-espresso hover:bg-secondary-container" data-filter="bouquets" type="button">
+          Bouquets Florales Comestibles
+        </button>
+<button class="filter-pill whitespace-nowrap px-space-lg py-2 rounded-full font-label-md text-label-md transition-all duration-300 bg-cream-surface text-chocolate-espresso hover:bg-secondary-container" data-filter="torres" type="button">
+          Torres Esculturales
+        </button>
+</div>
+<!-- Quick Delivery Badge Indicator -->
+<div class="hidden lg:flex items-center gap-space-xs text-on-surface-variant font-label-md text-label-md">
+<span class="material-symbols-outlined text-[18px] text-strawberry-rose">bolt</span>
+<span>Ordena antes de las 1:00 PM para entrega hoy</span>
+</div>
+</div>
+</section>
+<!-- Product Catalog Grid -->
+<section class="max-w-[1360px] mx-auto px-margin py-space-xl w-full">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-xl" id="product-grid">
+<!-- Card 1: Pastel Imperial Fresas & Mascarpone Bourbon -->
+<article class="relative product-item group flex flex-col min-w-0 bg-cream-surface rounded-xl overflow-hidden shadow-[0_8px_24px_-4px_rgba(43,30,26,0.06)] hover:shadow-[0_16px_36px_-6px_rgba(43,30,26,0.12)] transition-all duration-400" data-category="pasteles">
+<div class="relative w-full aspect-square overflow-hidden bg-cream-champagne">
+<img class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Elegant luxury naked sponge cake layered with delicate bourbon mascarpone cream and fresh sliced strawberries, crowned with glistening whole strawberries glazed with 24k edible gold leaf flakes, placed on an ornate vintage porcelain cake stand over a marble counter in a warm Brooklyn bakery." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSh6ZDfjqp41RIkKDZ5SWLaY8faaC_T379mYXWLWR8bAUGrXrkFJOk_--43jbgnhmeYKrcrkLMWu3oZQpYTFQOdSBxjpI3EkWA27rDzwYnXZqkSRSWyJ5uUvo051fp-6RKIspiy2quvP9LNLnTdWETrruzKRhrKSdBn6Mt30ihsv4oMvAzPG0ZmoxPfJ8TeppA29OGirOduvq9dXsBOIac1KNufsVwj-Af9HAuXaIBoTpAT700XXgdBA"/>
+<span class="absolute top-4 left-4 font-label-caps text-[11px] tracking-widest px-3 py-1 rounded-full bg-cream-surface/95 text-chocolate-espresso shadow-md uppercase">
+            Especialidad de la Casa
+          </span>
+<div class="absolute bottom-3 right-3 px-2.5 py-1 rounded-lg bg-chocolate-deep/75 backdrop-blur-md text-cream-champagne font-label-md text-[11px] flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-accent-gold-light">eco</span>
+<span>Fresas Orgánicas</span>
+</div>
+</div>
+<div class="flex flex-col flex-1 p-space-md justify-between gap-space-sm">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-1 text-accent-gold text-[14px]">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md text-secondary ml-1.5">(48 reseñas)</span>
+</div>
+<h2 class="font-title-lg text-title-lg text-chocolate-espresso group-hover:text-primary transition-colors">
+              Pastel Imperial Fresas &amp; Mascarpone Bourbon
+            </h2>
+<p class="font-body-sm text-body-sm text-secondary line-clamp-2 leading-relaxed">
+              Bizcocho esponjoso de vainilla Bourbon con crema ligera de mascarpone italiano, compota de fresas silvestres y corona de fresas frescas glaseadas con láminas de oro comestible.
+            </p>
+</div>
+<div class="pt-space-xs flex flex-col gap-space-sm">
+<div class="flex items-baseline justify-between">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase block">Inversión Gourmet</span>
+<span class="font-title-md text-title-md text-chocolate-espresso font-semibold">Desde $85.00 USD</span>
+</div>
+<span class="font-label-md text-label-md text-strawberry-rose bg-secondary-container/60 px-2.5 py-1 rounded-full">
+                8-10 Porciones
+              </span>
+</div>
+<div class="bc-card-actions grid grid-cols-2 gap-space-xs pt-1">
+<button class="action-customize w-full py-2.5 px-3 rounded-lg font-label-md text-label-md text-chocolate-espresso bg-cream-champagne hover:bg-secondary-container transition-colors text-center" data-product="Pastel Imperial Fresas" type="button">
+                Personalizar &amp; Pedir
+              </button>
+<button class="action-add w-full py-2.5 px-3 rounded-lg font-label-md text-label-md text-on-primary bg-strawberry-rose hover:bg-primary transition-colors flex items-center justify-center gap-1 shadow-sm" data-product="Pastel Imperial Fresas &amp; Mascarpone Bourbon" type="button">
+<span class="material-symbols-outlined text-[18px]">shopping_bag</span>
+<span>Añadir</span>
+</button>
+</div>
+</div>
+</div>
+</article>
+<!-- Card 2: Caja Escultural de Números & Letras Gourmet -->
+<article class="relative product-item group flex flex-col min-w-0 bg-cream-surface rounded-xl overflow-hidden shadow-[0_8px_24px_-4px_rgba(43,30,26,0.06)] hover:shadow-[0_16px_36px_-6px_rgba(43,30,26,0.12)] transition-all duration-400" data-category="cajas">
+<div class="relative w-full aspect-square overflow-hidden bg-cream-champagne">
+<img class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Luxurious monogram shaped custom dessert gift box crafted in cream and blush pink, packed neatly with ruby and white Belgian chocolate hand-dipped strawberries, pastel French macarons, and miniature fresh garden rose blossoms with gold dust accents on a rustic wooden table." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD8-B4DDCNhm2fw4JHNqTmhOu562ux6-oRqLINQmX1nqEgiFXouOtLde75Uugh8_CmT3vhyQoqef5Y6R0F-4OBDmUmheWN_aGmGVMQG01jGVVBcOViOSQOHBFCYQXRolpEWQXkx7LE4sELqfLdyTOifBFL7GkjuzMVoE3IoGw9gUWr9EWNJ6-vztAsmZvtN8oY5abel941HPf6I1zK0e5u5CNAq-ifNrZOR452DIKXNH3aRFMS70dlG0Q"/>
+<span class="absolute top-4 left-4 font-label-caps text-[11px] tracking-widest px-3 py-1 rounded-full bg-cream-surface/95 text-chocolate-espresso shadow-md uppercase">
+            Celebraciones &amp; Aniversarios
+          </span>
+<div class="absolute bottom-3 right-3 px-2.5 py-1 rounded-lg bg-chocolate-deep/75 backdrop-blur-md text-cream-champagne font-label-md text-[11px] flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-accent-gold-light">tune</span>
+<span>Personalizable</span>
+</div>
+</div>
+<div class="flex flex-col flex-1 p-space-md justify-between gap-space-sm">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-1 text-accent-gold text-[14px]">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md text-secondary ml-1.5">(62 reseñas)</span>
+</div>
+<h2 class="font-title-lg text-title-lg text-chocolate-espresso group-hover:text-primary transition-colors">
+              Caja Escultural de Números &amp; Letras Gourmet
+            </h2>
+<p class="font-body-sm text-body-sm text-secondary line-clamp-2 leading-relaxed">
+              Estructura rígida de lujo con números o iniciales colmadas de fresas bañadas en chocolate belga rubí y blanco, macarons parisinos y mini rosas de jardín.
+            </p>
+</div>
+<div class="pt-space-xs flex flex-col gap-space-sm">
+<div class="flex items-baseline justify-between">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase block">Inversión Gourmet</span>
+<span class="font-title-md text-title-md text-chocolate-espresso font-semibold">Desde $120.00 USD</span>
+</div>
+<span class="font-label-md text-label-md text-chocolate-espresso bg-cream-champagne px-2.5 py-1 rounded-full">
+                1 ó 2 Caracteres
+              </span>
+</div>
+<div class="bc-card-actions grid grid-cols-2 gap-space-xs pt-1">
+<button class="action-customize w-full py-2.5 px-2 rounded-lg font-label-md text-label-md text-chocolate-espresso bg-cream-champagne hover:bg-secondary-container transition-colors text-center truncate" data-product="Caja Escultural de Números &amp; Letras" type="button">
+                Elegir Números / Iniciales
+              </button>
+<button class="action-add w-full py-2.5 px-3 rounded-lg font-label-md text-label-md text-on-primary bg-strawberry-rose hover:bg-primary transition-colors flex items-center justify-center gap-1 shadow-sm" data-product="Caja Escultural de Números &amp; Letras" type="button">
+<span class="material-symbols-outlined text-[18px]">shopping_bag</span>
+<span>Añadir</span>
+</button>
+</div>
+</div>
+</div>
+</article>
+<!-- Card 3: Bouquet de Fresas con Chocolate & Rosas Pastel -->
+<article class="relative product-item group flex flex-col min-w-0 bg-cream-surface rounded-xl overflow-hidden shadow-[0_8px_24px_-4px_rgba(43,30,26,0.06)] hover:shadow-[0_16px_36px_-6px_rgba(43,30,26,0.12)] transition-all duration-400" data-category="bouquets">
+<div class="relative w-full aspect-square overflow-hidden bg-cream-champagne">
+<img class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Opulent artisanal edible bouquet tightly arranged with hand-dipped Belgian dark, milk, and white chocolate strawberries studded with edible pearls and gold leaf, nestled alongside blush pink and ivory fresh roses in luxury dusty rose matte presentation wrap tied with a satin ribbon." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAbwTcNBhRR2KFTeJBUbY8OEc2AERqFnn08ul1kG0r3pbDBpmLWA6D0BHhGbp65jMn4QIfm4LJgtA0F7DcZ1rmv8vOZdAlSSgry2-ULP6wp8epjMfnXUmI5ZUdWdinD3LHiXdbLCdAOS5UgyAdl3kZm6UTymJj36GhgPK9ay-eUwWdCiiLj5GfO6XIQL5NZsFhXV4VCXIyXB4SWumUfl2TSB8ASo_Ck54lJoW5cax3NP8C5zmnqPzAdAA"/>
+<span class="absolute top-4 left-4 font-label-caps text-[11px] tracking-widest px-3 py-1 rounded-full bg-cream-surface/95 text-chocolate-espresso shadow-md uppercase">
+            Romance &amp; Regalo de Lujo
+          </span>
+<div class="absolute bottom-3 right-3 px-2.5 py-1 rounded-lg bg-chocolate-deep/75 backdrop-blur-md text-cream-champagne font-label-md text-[11px] flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-accent-gold-light">favorite</span>
+<span>Flores Naturales</span>
+</div>
+</div>
+<div class="flex flex-col flex-1 p-space-md justify-between gap-space-sm">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-1 text-accent-gold text-[14px]">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md text-secondary ml-1.5">(89 reseñas)</span>
+</div>
+<h2 class="font-title-lg text-title-lg text-chocolate-espresso group-hover:text-primary transition-colors">
+              Bouquet de Fresas con Chocolate &amp; Rosas Pastel
+            </h2>
+<p class="font-body-sm text-body-sm text-secondary line-clamp-2 leading-relaxed">
+              Ramo confeccionado a mano en papel seda mate rubor con brochetas de fresas cubiertas en chocolate belga decoradas con perlas de azúcar y rosas frescas.
+            </p>
+</div>
+<div class="pt-space-xs flex flex-col gap-space-sm">
+<div class="flex items-baseline justify-between">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase block">Inversión Gourmet</span>
+<span class="font-title-md text-title-md text-chocolate-espresso font-semibold">Desde $95.00 USD</span>
+</div>
+<span class="font-label-md text-label-md text-strawberry-rose bg-secondary-container/60 px-2.5 py-1 rounded-full">
+                Tamaño Estándar &amp; Deluxe
+              </span>
+</div>
+<div class="bc-card-actions grid grid-cols-2 gap-space-xs pt-1">
+<button class="action-customize w-full py-2.5 px-2 rounded-lg font-label-md text-label-md text-chocolate-espresso bg-cream-champagne hover:bg-secondary-container transition-colors text-center truncate" data-product="Bouquet de Fresas con Chocolate" type="button">
+                Ver Opciones de Ramo
+              </button>
+<button class="action-add w-full py-2.5 px-3 rounded-lg font-label-md text-label-md text-on-primary bg-strawberry-rose hover:bg-primary transition-colors flex items-center justify-center gap-1 shadow-sm" data-product="Bouquet de Fresas con Chocolate &amp; Rosas Pastel" type="button">
+<span class="material-symbols-outlined text-[18px]">shopping_bag</span>
+<span>Añadir</span>
+</button>
+</div>
+</div>
+</div>
+</article>
+<!-- Card 4: Strawberry Tower Rosa & Pistacho -->
+<article class="relative product-item group flex flex-col min-w-0 bg-cream-surface rounded-xl overflow-hidden shadow-[0_8px_24px_-4px_rgba(43,30,26,0.06)] hover:shadow-[0_16px_36px_-6px_rgba(43,30,26,0.12)] transition-all duration-400" data-category="torres">
+<div class="relative w-full aspect-square overflow-hidden bg-cream-champagne">
+<img alt="Strawberry Tower Rosa &amp; Pistacho Berryccino" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out" src="https://lh3.googleusercontent.com/aida/AEtjO1XU7F_f0ROQnc2wxw-Z1go9xnbbkq-ZNNQELuxiXBrptGrUVs4_cx0uv3N1Ns-qAoUPa-0jXr5fTAOoF2CGSsDHwpWfvnuISOvO-HQXuHRTWr22eE6MoZQirkSYxZtclB2aII4RQgkjqU_LUgDXTQJvGAL7PxdUpDsJhpj11XcqBWHQNePuvVFYFlfKqlGHStBr2JZlNklhiQVKIoudadCG5WcEqEIxMPnmApyFRKcZMTUlrCEW_LpNA3s"/>
+<span class="absolute top-4 left-4 font-label-caps text-[11px] tracking-widest px-3 py-1 rounded-full bg-cream-surface/95 text-chocolate-espresso shadow-md uppercase">
+            Firma Berryccino
+          </span>
+<div class="absolute bottom-3 right-3 px-2.5 py-1 rounded-lg bg-chocolate-deep/75 backdrop-blur-md text-cream-champagne font-label-md text-[11px] flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-accent-gold-light">workspace_premium</span>
+<span>Edición Icónica</span>
+</div>
+</div>
+<div class="flex flex-col flex-1 p-space-md justify-between gap-space-sm">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-1 text-accent-gold text-[14px]">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md text-secondary ml-1.5">(114 reseñas)</span>
+</div>
+<h2 class="font-title-lg text-title-lg text-chocolate-espresso group-hover:text-primary transition-colors">
+              Strawberry Tower Rosa &amp; Pistacho
+            </h2>
+<p class="font-body-sm text-body-sm text-secondary line-clamp-2 leading-relaxed">
+              Torre cónica en tonos rosa pastel, chocolate blanco belga y toques crujientes de pistacho siciliano con rosas naturales.
+            </p>
+</div>
+<div class="pt-space-xs flex flex-col gap-space-sm">
+<div class="flex items-baseline justify-between">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase block">Inversión Gourmet</span>
+<span class="font-title-lg text-title-lg text-chocolate-espresso font-semibold">$200.00 – $370.00 USD</span>
+</div>
+<span class="font-label-md text-label-md text-secondary bg-surface-container px-2.5 py-1 rounded-full">
+                S, M, L
+              </span>
+</div>
+<div class="bc-card-actions grid grid-cols-2 gap-space-xs pt-1">
+<button class="action-customize w-full py-2.5 px-3 rounded-lg font-label-md text-label-md text-chocolate-espresso bg-cream-champagne hover:bg-secondary-container transition-colors text-center" data-product="Strawberry Tower Rosa &amp; Pistacho" type="button">
+                Ver Detalles
+              </button>
+<button class="action-add w-full py-2.5 px-3 rounded-lg font-label-md text-label-md text-on-primary bg-strawberry-rose hover:bg-primary transition-colors flex items-center justify-center gap-1 shadow-sm" data-product="Strawberry Tower Rosa &amp; Pistacho" type="button">
+<span class="material-symbols-outlined text-[18px]">shopping_bag</span>
+<span>Añadir</span>
+</button>
+</div>
+</div>
+</div>
+</article>
+<!-- Card 5: Torre Tibet Tiffany & Nácar -->
+<article class="relative product-item group flex flex-col min-w-0 bg-cream-surface rounded-xl overflow-hidden shadow-[0_8px_24px_-4px_rgba(43,30,26,0.06)] hover:shadow-[0_16px_36px_-6px_rgba(43,30,26,0.12)] transition-all duration-400" data-category="torres">
+<div class="relative w-full aspect-square overflow-hidden bg-cream-champagne">
+<img alt="Torre Tibet Tiffany &amp; Nácar Berryccino" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out" src="https://lh3.googleusercontent.com/aida/AEtjO1WfSv73EsnSsZKP7FtCMssK23th7FazL93IqAz95KPJCpx1hIcI5fjBtzb7N_1uhfqizl2gmqkezh4-ybbKDMh3UZ62nLD87pLaWVGG3JfHMyOS9TAVkcKpLylj5LPfz0hAU_wzg5_C24k8cbnMMcBtMJ7NLC1sEU5m39XVsPBrHOyOXPb8FQrq0K798t4p-9MZT6T6p2M7bAqqaAuGe69_huS6FLxQLrBWZUImK7TTPun6sqQ4yBRyxMyk"/>
+<span class="absolute top-4 left-4 font-label-caps text-[11px] tracking-widest px-3 py-1 rounded-full bg-cream-surface/95 text-chocolate-espresso shadow-md uppercase">
+            Edición Tibet
+          </span>
+<div class="absolute bottom-3 right-3 px-2.5 py-1 rounded-lg bg-chocolate-deep/75 backdrop-blur-md text-cream-champagne font-label-md text-[11px] flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-accent-gold-light">diamond</span>
+<span>Alta Costura</span>
+</div>
+</div>
+<div class="flex flex-col flex-1 p-space-md justify-between gap-space-sm">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-1 text-accent-gold text-[14px]">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md text-secondary ml-1.5">(36 reseñas)</span>
+</div>
+<h2 class="font-title-lg text-title-lg text-chocolate-espresso group-hover:text-primary transition-colors">
+              Torre Tibet Tiffany &amp; Nácar
+            </h2>
+<p class="font-body-sm text-body-sm text-secondary line-clamp-2 leading-relaxed">
+              Armonía en tonos verde Tiffany y perla comestible con rosas blancas marfil y chocolate belga artesanal.
+            </p>
+</div>
+<div class="pt-space-xs flex flex-col gap-space-sm">
+<div class="flex items-baseline justify-between">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase block">Inversión Gourmet</span>
+<span class="font-title-lg text-title-lg text-chocolate-espresso font-semibold">$200.00 – $370.00 USD</span>
+</div>
+<span class="font-label-md text-label-md text-secondary bg-surface-container px-2.5 py-1 rounded-full">
+                S, M, L
+              </span>
+</div>
+<div class="bc-card-actions grid grid-cols-2 gap-space-xs pt-1">
+<button class="action-customize w-full py-2.5 px-3 rounded-lg font-label-md text-label-md text-chocolate-espresso bg-cream-champagne hover:bg-secondary-container transition-colors text-center" data-product="Torre Tibet Tiffany &amp; Nácar" type="button">
+                Ver Detalles
+              </button>
+<button class="action-add w-full py-2.5 px-3 rounded-lg font-label-md text-label-md text-on-primary bg-strawberry-rose hover:bg-primary transition-colors flex items-center justify-center gap-1 shadow-sm" data-product="Torre Tibet Tiffany &amp; Nácar" type="button">
+<span class="material-symbols-outlined text-[18px]">shopping_bag</span>
+<span>Añadir</span>
+</button>
+</div>
+</div>
+</div>
+</article>
+<!-- Card 6: Torre We Are Engaged con Topper Nupcial -->
+<article class="relative product-item group flex flex-col min-w-0 bg-cream-surface rounded-xl overflow-hidden shadow-[0_8px_24px_-4px_rgba(43,30,26,0.06)] hover:shadow-[0_16px_36px_-6px_rgba(43,30,26,0.12)] transition-all duration-400" data-category="torres">
+<div class="relative w-full aspect-square overflow-hidden bg-cream-champagne">
+<img alt="Torre We Are Engaged con Topper Nupcial Berryccino" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out" src="https://lh3.googleusercontent.com/aida/AEtjO1U5tVM3_iot0sDPN3-PasPvNQFsuW-jTRRuKY55Q9NItiGRjW4icZNb63VvI4G0g9Inus0ss13oevFFEuS3nCx58vyNrEs92MvN1e_awxVNP4_rRNzqKbWHjsSCXMGXZYKOjEHgFa6Hyn8NbQn2P1HrD8i13ZRQ7rpvzCG89R5MsOppEG6bQMHvpGhJN0x7hxLEiYvzAUa_KdEH-2YWIWbvfKASEANTUIckm_0A74IEUKl_S2n9IrkQ7o6M"/>
+<span class="absolute top-4 left-4 font-label-caps text-[11px] tracking-widest px-3 py-1 rounded-full bg-cream-surface/95 text-chocolate-espresso shadow-md uppercase">
+            Bodas &amp; Compromisos
+          </span>
+<div class="absolute bottom-3 right-3 px-2.5 py-1 rounded-lg bg-chocolate-deep/75 backdrop-blur-md text-cream-champagne font-label-md text-[11px] flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-accent-gold-light">celebration</span>
+<span>Topper Incluido</span>
+</div>
+</div>
+<div class="flex flex-col flex-1 p-space-md justify-between gap-space-sm">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-1 text-accent-gold text-[14px]">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md text-secondary ml-1.5">(53 reseñas)</span>
+</div>
+<h2 class="font-title-lg text-title-lg text-chocolate-espresso group-hover:text-primary transition-colors">
+              Torre We Are Engaged con Topper Nupcial
+            </h2>
+<p class="font-body-sm text-body-sm text-secondary line-clamp-2 leading-relaxed">
+              Especial para pedidas de mano con fresas bañadas en blanco perlado, destellos comestibles y rosas frescas.
+            </p>
+</div>
+<div class="pt-space-xs flex flex-col gap-space-sm">
+<div class="flex items-baseline justify-between">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase block">Inversión Gourmet</span>
+<span class="font-title-lg text-title-lg text-chocolate-espresso font-semibold">$189.99 – $369.99 USD</span>
+</div>
+<span class="font-label-md text-label-md text-strawberry-rose bg-secondary-container/60 px-2.5 py-1 rounded-full">
+                Exclusivo Eventos
+              </span>
+</div>
+<div class="bc-card-actions grid grid-cols-2 gap-space-xs pt-1">
+<button class="action-customize w-full py-2.5 px-3 rounded-lg font-label-md text-label-md text-chocolate-espresso bg-cream-champagne hover:bg-secondary-container transition-colors text-center" data-product="Torre We Are Engaged" type="button">
+                Ver Detalles
+              </button>
+<button class="action-add w-full py-2.5 px-3 rounded-lg font-label-md text-label-md text-on-primary bg-strawberry-rose hover:bg-primary transition-colors flex items-center justify-center gap-1 shadow-sm" data-product="Torre We Are Engaged con Topper Nupcial" type="button">
+<span class="material-symbols-outlined text-[18px]">shopping_bag</span>
+<span>Añadir</span>
+</button>
+</div>
+</div>
+</div>
+</article>
+</div>
+</section>
+<!-- Culinary Craft & Ingredient Mastery Feature Section -->
+<section class="max-w-[1360px] mx-auto px-margin py-space-xl w-full">
+<div class="bg-surface-container rounded-2xl p-space-xl md:p-space-2xl grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center shadow-[0_4px_24px_rgba(43,30,26,0.04)]">
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<span class="font-label-caps text-label-caps text-primary tracking-widest uppercase">Estándar Culinario Berryccino</span>
+<h3 class="font-headline-md md:font-headline-lg text-headline-md md:text-headline-lg text-chocolate-espresso">
+          El Secreto de la Textura Perfecta &amp; Sabor Inolvidable
+        </h3>
+<p class="font-body-md text-body-md text-secondary leading-relaxed">
+          Nuestras fresas son seleccionadas a mano cada mañana bajo estrictos estándares de firmeza, acidez y frescura natural. Las sumergimos en templado preciso con chocolate belga Callebaut de granos sostenibles de cacao de África Occidental, logrando el mítico chasquido sedoso al morder.
+        </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-space-md pt-space-sm">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[24px]">verified</span>
+<div>
+<h4 class="font-title-md text-title-md text-chocolate-espresso">Chocolate Callebaut 100% Puro</h4>
+<p class="font-body-sm text-body-sm text-secondary">Sin grasas hidrogenadas ni sucedáneos. Solo manteca pura de cacao.</p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[24px]">search_off</span>
+<div>
+<h4 class="font-title-md text-title-md text-chocolate-espresso">Elaboración 4 Horas Antes</h4>
+<p class="font-body-sm text-body-sm text-secondary">Cada arreglo se elabora pocas horas antes del despacho para máxima crocancia.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="lg:col-span-5 flex flex-col gap-space-md bg-cream-surface p-space-lg rounded-xl shadow-sm">
+<div class="flex items-center justify-between pb-space-xs">
+<span class="font-title-md text-title-md text-chocolate-espresso">Compromiso de Frescura</span>
+<span class="material-symbols-outlined text-accent-gold text-[20px]">verified</span>
+</div>
+<!-- Progress Indicators for Quality -->
+<div class="flex flex-col gap-space-sm">
+<div>
+<div class="flex justify-between font-label-md text-label-md text-chocolate-espresso mb-1">
+<span>Selección de Fresa Gigante Calidad A+</span>
+<span>100%</span>
+</div>
+<div class="w-full h-2 rounded-full bg-cream-champagne overflow-hidden">
+<div class="h-full bg-strawberry-rose w-full rounded-full"></div>
+</div>
+</div>
+<div>
+<div class="flex justify-between font-label-md text-label-md text-chocolate-espresso mb-1">
+<span>Cacao Belga Callebaut Certificado</span>
+<span>100%</span>
+</div>
+<div class="w-full h-2 rounded-full bg-cream-champagne overflow-hidden">
+<div class="h-full bg-chocolate-espresso w-full rounded-full"></div>
+</div>
+</div>
+<div>
+<div class="flex justify-between font-label-md text-label-md text-chocolate-espresso mb-1">
+<span>Vehículos Climatizados Same-Day</span>
+<span>100%</span>
+</div>
+<div class="w-full h-2 rounded-full bg-cream-champagne overflow-hidden">
+<div class="h-full bg-tertiary w-full rounded-full"></div>
+</div>
+</div>
+</div>
+<div class="mt-space-xs p-space-sm rounded-lg bg-cream-champagne flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-primary text-[18px]">ac_unit</span>
+<span>Entrega refrigerada garantizada entre 4°C y 10°C en los 5 distritos de NY.</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Custom Orders & Event Concierge Banner -->
+<section class="max-w-[1360px] mx-auto px-margin my-space-2xl w-full">
+<div class="relative overflow-hidden rounded-2xl bg-chocolate-espresso text-cream-champagne p-space-xl md:p-space-2xl shadow-xl flex flex-col lg:flex-row items-center justify-between gap-space-xl">
+<!-- Ornate Background Graphic -->
+<div class="absolute -right-24 -bottom-24 w-96 h-96 rounded-full bg-strawberry-rose/15 blur-[90px] pointer-events-none"></div>
+<div class="flex flex-col gap-space-sm max-w-2xl text-center lg:text-left z-10">
+<span class="font-label-caps text-label-caps text-accent-gold-light uppercase tracking-widest">
+          Servicio de Atelier &amp; Eventos Privados
+        </span>
+<h2 class="font-headline-md md:font-headline-lg text-headline-md md:text-headline-lg text-cream-surface">
+          ¿Necesitas una mesa de postres o un diseño a medida para tu evento en Nueva York?
+        </h2>
+<p class="font-body-md text-body-md text-cream-subtle/80 leading-relaxed">
+          Diseñamos piezas colosales para bodas de lujo, galas corporativas en Manhattan y recepciones privadas en Los Hamptons. Nuestro chef repostero creará bocetos adaptados a tu paleta y temática.
+        </p>
+</div>
+<div class="flex flex-col sm:flex-row items-center gap-space-md w-full lg:w-auto z-10">
+<a class="w-full sm:w-auto px-space-xl py-3.5 rounded-xl bg-strawberry-rose text-on-primary font-label-lg text-label-lg hover:bg-primary transition-all duration-300 text-center flex items-center justify-center gap-space-xs shadow-md" href="tel:+13156642576">
+<span class="material-symbols-outlined text-[20px]">call</span>
+<span>Llamar al Concierge</span>
+</a>
+<a class="w-full sm:w-auto px-space-xl py-3.5 rounded-xl bg-cream-surface text-chocolate-espresso font-label-lg text-label-lg hover:bg-secondary-container transition-all duration-300 text-center flex items-center justify-center gap-space-xs shadow-md" href="https://wa.me/13156642576" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px] text-tertiary">chat</span>
+<span>WhatsApp Directo</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Interactive Customization Modal -->
+<dialog class="p-0 rounded-2xl backdrop:bg-chocolate-deep/60 backdrop:backdrop-blur-sm max-w-lg w-[92%] shadow-2xl bg-surface" id="custom-modal">
+<div class="p-space-xl flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div>
+<span class="font-label-caps text-label-caps text-primary uppercase">Atelier de Personalización</span>
+<h3 class="font-headline-sm text-headline-sm text-chocolate-espresso" id="modal-product-title">Personalizar Producto</h3>
+</div>
+<button class="w-8 h-8 rounded-full bg-cream-champagne hover:bg-secondary-container flex items-center justify-center text-chocolate-espresso transition-colors" id="close-modal-btn" type="button">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<div class="flex flex-col gap-space-md pt-space-xs">
+<!-- Variant Choice: Chocolate Dip -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-title-md text-title-md text-chocolate-espresso">Selecciona Baño de Chocolate Belga</label>
+<div class="grid grid-cols-2 gap-space-xs">
+<label class="flex items-center gap-2 p-2.5 rounded-lg bg-cream-surface hover:bg-cream-champagne cursor-pointer transition-colors shadow-sm">
+<input checked="" class="accent-strawberry-rose w-4 h-4" name="chocolate-type" type="radio"/>
+<span class="font-body-sm text-body-sm text-chocolate-espresso">Callebaut Con Leche 33%</span>
+</label>
+<label class="flex items-center gap-2 p-2.5 rounded-lg bg-cream-surface hover:bg-cream-champagne cursor-pointer transition-colors shadow-sm">
+<input class="accent-strawberry-rose w-4 h-4" name="chocolate-type" type="radio"/>
+<span class="font-body-sm text-body-sm text-chocolate-espresso">Negro Intenso 70.5%</span>
+</label>
+<label class="flex items-center gap-2 p-2.5 rounded-lg bg-cream-surface hover:bg-cream-champagne cursor-pointer transition-colors shadow-sm">
+<input class="accent-strawberry-rose w-4 h-4" name="chocolate-type" type="radio"/>
+<span class="font-body-sm text-body-sm text-chocolate-espresso">Blanco Terciopelo 28%</span>
+</label>
+<label class="flex items-center gap-2 p-2.5 rounded-lg bg-cream-surface hover:bg-cream-champagne cursor-pointer transition-colors shadow-sm">
+<input class="accent-strawberry-rose w-4 h-4" name="chocolate-type" type="radio"/>
+<span class="font-body-sm text-body-sm text-chocolate-espresso">Ruby Exótico Rosado</span>
+</label>
+</div>
+</div>
+<!-- Luxury Finishing Touches Checkboxes -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-title-md text-title-md text-chocolate-espresso">Detalles &amp; Acabados de Lujo</label>
+<div class="flex flex-col gap-2">
+<label class="flex items-center justify-between p-2.5 rounded-lg bg-cream-surface cursor-pointer shadow-sm">
+<div class="flex items-center gap-2">
+<input checked="" class="accent-strawberry-rose w-4 h-4 rounded" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-chocolate-espresso">Láminas de oro comestible 24K</span>
+</div>
+<span class="font-label-md text-label-md text-primary">Incluido</span>
+</label>
+<label class="flex items-center justify-between p-2.5 rounded-lg bg-cream-surface cursor-pointer shadow-sm">
+<div class="flex items-center gap-2">
+<input class="accent-strawberry-rose w-4 h-4 rounded" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-chocolate-espresso">Tarjeta con caligrafía en cera sellada</span>
+</div>
+<span class="font-label-md text-label-md text-chocolate-espresso">+$6.00</span>
+</label>
+</div>
+</div>
+<!-- Delivery Date Selector -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-title-md text-title-md text-chocolate-espresso">Fecha de Entrega Deseada (NYC)</label>
+<div class="relative">
+<input class="w-full px-space-md py-2.5 rounded-lg bg-cream-surface text-chocolate-espresso font-body-sm text-body-sm focus:outline-none focus:ring-2 focus:ring-strawberry-rose/30 shadow-sm" type="date" value="2025-05-18"/>
+</div>
+</div>
+</div>
+<div class="pt-space-md flex items-center gap-space-sm">
+<button class="flex-1 py-3 px-space-lg rounded-xl bg-strawberry-rose text-on-primary font-label-md text-label-md hover:bg-primary transition-all shadow-md text-center" id="confirm-custom-btn" type="button">
+          Guardar &amp; Añadir al Carrito
+        </button>
+</div>
+</div>
+</dialog>
+</div>
+<script>
+  (function initGourmetCatalog() {
+    // Category Filtering Logic
+    const filterButtons = document.querySelectorAll('.filter-pill');
+    const productItems = document.querySelectorAll('.product-item');
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const filter = btn.getAttribute('data-filter');
+
+        // Reset and activate pill styles
+        filterButtons.forEach(b => {
+          b.classList.remove('bg-chocolate-espresso', 'text-cream-champagne', 'shadow-sm');
+          b.classList.add('bg-cream-surface', 'text-chocolate-espresso');
+        });
+        btn.classList.add('bg-chocolate-espresso', 'text-cream-champagne', 'shadow-sm');
+        btn.classList.remove('bg-cream-surface');
+
+        // Filter cards smoothly
+        productItems.forEach(card => {
+          const cat = card.getAttribute('data-category');
+          if (filter === 'all' || cat === filter) {
+            card.classList.remove('hidden');
+            setTimeout(() => {
+              card.style.opacity = '1';
+              card.style.transform = 'translateY(0)';
+            }, 10);
+          } else {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(12px)';
+            setTimeout(() => {
+              card.classList.add('hidden');
+            }, 250);
+          }
+        });
+      });
+    });
+
+    // Toast Notification Feedback Helper
+    const toast = document.getElementById('cart-toast');
+    const toastMsg = document.getElementById('cart-toast-message');
+    let toastTimeout;
+
+    function showToast(message) {
+      if (toastTimeout) clearTimeout(toastTimeout);
+      toastMsg.textContent = message;
+      toast.classList.remove('opacity-0', 'translate-y-32', 'pointer-events-none');
+      toast.classList.add('opacity-100', 'translate-y-0');
+
+      toastTimeout = setTimeout(() => {
+        toast.classList.add('opacity-0', 'translate-y-32', 'pointer-events-none');
+        toast.classList.remove('opacity-100', 'translate-y-0');
+      }, 3500);
+    }
+
+    // Direct Add-to-Cart Action
+    const addButtons = document.querySelectorAll('.action-add');
+    addButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const product = button.getAttribute('data-product');
+        showToast(`${product} se ha añadido a tu orden.`);
+      });
+    });
+
+    // Customization Modal Logic
+    const modal = document.getElementById('custom-modal');
+    const modalTitle = document.getElementById('modal-product-title');
+    const closeModalBtn = document.getElementById('close-modal-btn');
+    const confirmCustomBtn = document.getElementById('confirm-custom-btn');
+    const customizeButtons = document.querySelectorAll('.action-customize');
+
+    let currentConfiguredProduct = '';
+
+    customizeButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        currentConfiguredProduct = btn.getAttribute('data-product');
+        modalTitle.textContent = `Personalizar ${currentConfiguredProduct}`;
+        modal.showModal();
+      });
+    });
+
+    if (closeModalBtn) {
+      closeModalBtn.addEventListener('click', () => {
+        modal.close();
+      });
+    }
+
+    if (confirmCustomBtn) {
+      confirmCustomBtn.addEventListener('click', () => {
+        modal.close();
+        showToast(`${currentConfiguredProduct} configurado con éxito.`);
+      });
+    }
+
+    // Backdrop click close
+    modal.addEventListener('click', (e) => {
+      const rect = modal.getBoundingClientRect();
+      const isInDialog = (rect.top <= e.clientY && e.clientY <= rect.top + rect.height &&
+        rect.left <= e.clientX && e.clientX <= rect.left + rect.width);
+      if (!isInDialog) {
+        modal.close();
+      }
+    });
+  })();
+</script></main><footer class="w-full bg-cream-champagne text-chocolate-espresso mt-space-2xl shadow-[0_-1px_12px_rgba(43,30,26,0.04)]"><div class="max-w-[1360px] mx-auto px-margin pt-space-2xl pb-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-xl pb-space-2xl"><div class="flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Berryccino Logo" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Xd0c5IKKylahsQnqaZP4bl3zLvTHZTw3a6JbwTTelABrTiYaGWU5va12ymBpFch3TZ4jA2KV7dN0i0uT6ebgvt58Uj6xLeDdZwDe5ea7tQUi8YzPfgG7v2R0Q2n4pCPLX7M4urs-3GG7IpZYlPG3YNmZmn1kGDYgyhjIZggS7FC4rT4OtbGSLh7UWXpmr4MPeMouEeGKCO2njzzrg6wh9R50m-qqjQbiRPfdZB9wUxSaqyHWizA1R1L8TV"/><span class="font-headline-sm text-headline-sm text-chocolate-espresso">Berryccino</span></div><p class="font-body-sm text-body-sm text-secondary leading-relaxed">Arte comestible de lujo con fresas bañadas en chocolate belga de primera selección, arreglos florales artesanales y postres gourmet para celebraciones inolvidables en Nueva York.</p><div class="flex items-center gap-space-sm pt-space-xs"><span class="w-8 h-8 rounded-full bg-cream-surface flex items-center justify-center text-chocolate-espresso hover:bg-strawberry-blush hover:text-chocolate-deep transition-colors shadow-sm cursor-pointer"><span class="material-symbols-outlined text-[18px]">photo_camera</span></span><span class="w-8 h-8 rounded-full bg-cream-surface flex items-center justify-center text-chocolate-espresso hover:bg-strawberry-blush hover:text-chocolate-deep transition-colors shadow-sm cursor-pointer"><span class="material-symbols-outlined text-[18px]">play_circle</span></span><span class="w-8 h-8 rounded-full bg-cream-surface flex items-center justify-center text-chocolate-espresso hover:bg-strawberry-blush hover:text-chocolate-deep transition-colors shadow-sm cursor-pointer"><span class="material-symbols-outlined text-[18px]">share</span></span></div></div><div class="flex flex-col gap-space-sm"><h3 class="font-title-md text-title-md text-chocolate-espresso">Boutique &amp; Entregas</h3><p class="font-body-sm text-body-sm text-secondary flex items-start gap-space-xs"><span class="material-symbols-outlined text-[18px] text-tertiary mt-0.5">location_on</span><span>443 7th Ave, Brooklyn, NY 11215, United States</span></p><p class="font-body-sm text-body-sm text-secondary flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-tertiary">schedule</span><span>Lunes a Domingo: 8:00 AM – 8:00 PM</span></p><p class="font-body-sm text-body-sm text-secondary flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-tertiary">phone</span><span>+1 (315) 664-2576</span></p><p class="font-body-sm text-body-sm text-secondary flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-tertiary">local_shipping</span><span>Servicio Same-Day NYC &amp; Envíos Tri-State</span></p></div><div class="flex flex-col gap-space-sm"><h3 class="font-title-md text-title-md text-chocolate-espresso">Experiencia &amp; Ayuda</h3><div class="flex flex-col gap-space-xs"><a class="font-body-sm text-body-sm text-secondary hover:text-strawberry-rose transition-colors" data-path="preguntas-frecuentes" href="#">Preguntas Frecuentes</a><a class="font-body-sm text-body-sm text-secondary hover:text-strawberry-rose transition-colors" data-path="pedidos-corporativos" href="#">Eventos &amp; Pedidos Corporativos</a><a class="font-body-sm text-body-sm text-secondary hover:text-strawberry-rose transition-colors" data-path="guia-de-cuidados" href="#">Guía de Conservación del Chocolate</a><a class="font-body-sm text-body-sm text-secondary hover:text-strawberry-rose transition-colors" data-path="politicas-de-entrega" href="#">Políticas de Entrega y Envíos</a><a class="font-body-sm text-body-sm text-secondary hover:text-strawberry-rose transition-colors" data-path="terminos-y-condiciones" href="#">Términos &amp; Privacidad</a></div></div><div class="flex flex-col gap-space-sm"><h3 class="font-title-md text-title-md text-chocolate-espresso">Club Berryccino</h3><p class="font-body-sm text-body-sm text-secondary">Suscríbete para recibir invitaciones a lanzamientos estacionales y un 10% de cortesía en tu primera orden de regalo.</p><div class="flex items-center gap-space-xs mt-space-xs"><input class="bg-cream-surface text-chocolate-espresso font-body-sm text-body-sm px-space-md py-2 rounded-lg flex-1 focus:outline-none focus:ring-2 focus:ring-strawberry-rose/30 shadow-inner" placeholder="Tu correo electrónico" type="email"/><button class="bg-strawberry-rose text-on-primary font-label-md text-label-md px-space-md py-2 rounded-lg hover:bg-primary transition-colors shadow-sm" type="button">Unirme</button></div><div class="pt-space-sm"><p class="font-label-caps text-label-caps text-secondary mb-1.5">MÉTODOS DE PAGO SEGURO</p><div class="flex items-center gap-space-xs flex-wrap"><span class="px-2 py-1 bg-cream-surface rounded font-label-caps text-[11px] text-chocolate-espresso shadow-sm">APPLE PAY</span><span class="px-2 py-1 bg-cream-surface rounded font-label-caps text-[11px] text-chocolate-espresso shadow-sm">VISA</span><span class="px-2 py-1 bg-cream-surface rounded font-label-caps text-[11px] text-chocolate-espresso shadow-sm">MASTERCARD</span><span class="px-2 py-1 bg-cream-surface rounded font-label-caps text-[11px] text-chocolate-espresso shadow-sm">AMEX</span></div></div></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md text-secondary font-body-sm text-body-sm"><p>© 2025 Berryccino LLC. Todos los derechos reservados. Hecho con pasión artesanal en Brooklyn, NY.</p><div class="flex items-center gap-space-md"><a class="hover:text-chocolate-espresso transition-colors" data-path="terminos-y-condiciones" href="#">Privacidad</a><span>•</span><a class="hover:text-chocolate-espresso transition-colors" data-path="terminos-y-condiciones" href="#">Condiciones del Servicio</a><span>•</span><a class="hover:text-chocolate-espresso transition-colors" data-path="catalogo" href="#">Boutique Virtual</a></div></div></div></footer><script id="berryccino-shell">
+/* ============================================================
+   Berryccino — Site Shell JS
+   Carrito (estado + panel lateral) + navegación móvil
+   ============================================================ */
+(function () {
+  'use strict';
+
+  var KEY = 'berryccino_cart_v1';
+  var FREE_SHIP = 150;
+  var SHIP_FEE = 14.95;
+  var COUPONS = {
+    BERRY10: { pct: 0.1, label: '10% Club Berryccino' },
+    FRESAS15: { pct: 0.15, label: '15% Temporada' }
+  };
+
+  var cart = [];
+  var coupon = null;
+  var couponDraft = '';
+  var couponErr = '';
+
+  /* ---------------- helpers ---------------- */
+  function load() {
+    try {
+      var raw = localStorage.getItem(KEY);
+      var parsed = raw ? JSON.parse(raw) : null;
+      if (!Array.isArray(parsed)) return [];
+      return parsed.filter(function (it) {
+        return it && typeof it.id === 'string' && typeof it.name === 'string' &&
+               isFinite(it.price) && it.price >= 0 && it.qty > 0;
+      });
+    } catch (e) { return []; }
+  }
+  function save() {
+    try { localStorage.setItem(KEY, JSON.stringify(cart)); } catch (e) {}
+  }
+  function num(n) { return (Math.round(n * 100) / 100).toFixed(2); }
+  function money(n) { return '$' + num(n); }
+  function slug(s) {
+    return String(s).toLowerCase().normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '').slice(0, 48);
+  }
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+  function icon(n, size) {
+    return '<span class="material-symbols-outlined" style="font-size:' + (size || 20) + 'px">' + n + '</span>';
+  }
+
+  /* ---------------- markup ---------------- */
+  function shellHTML() {
+    return [
+      '<div class="bc-root">',
+      '  <div class="bc-overlay" id="bcOverlay"></div>',
+
+      '  <aside class="bc-mnav" id="bcMnav" aria-hidden="true" aria-label="Navegación principal">',
+      '    <div class="bc-mnav__head">',
+      '      <span class="bc-mnav__brand"><img alt="" id="bcMnavLogo">DolceMoments</span>',
+      '      <button class="bc-iconbtn" type="button" data-bc-close aria-label="Cerrar menú">' + icon('close') + '</button>',
+      '    </div>',
+      '    <div class="bc-mnav__body" id="bcMnavBody"></div>',
+      '    <div class="bc-mnav__foot">',
+      '      <a class="bc-mnav__phone" href="tel:+13156642576">' + icon('call', 17) + '<span>+1 (315) 664-2576</span></a>',
+      '      <div class="bc-mnav__meta">',
+      '        <a data-path="mi-cuenta" href="#">Mi cuenta</a>',
+      '        <a data-path="preguntas-frecuentes" href="#">Ayuda</a>',
+      '        <a data-path="terminos-y-condiciones" href="#">Términos</a>',
+      '      </div>',
+      '    </div>',
+      '  </aside>',
+
+      '  <aside class="bc-drawer" id="bcDrawer" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Bolsa de compras">',
+      '    <div class="bc-drawer__head">',
+      '      <div>',
+      '        <h2 class="bc-drawer__title">Tu Bolsa</h2>',
+      '        <p class="bc-drawer__count" id="bcDrawerCount">0 artículos</p>',
+      '      </div>',
+      '      <button class="bc-iconbtn" type="button" data-bc-close aria-label="Cerrar bolsa">' + icon('close') + '</button>',
+      '    </div>',
+      '    <div class="bc-ship" id="bcShip"></div>',
+      '    <div class="bc-items" id="bcItems"></div>',
+      '    <div class="bc-foot" id="bcFoot"></div>',
+      '  </aside>',
+
+      '  <div class="bc-toast" id="bcToast" role="status" aria-live="polite">',
+      '    <span id="bcToastMsg"></span>',
+      '    <button class="bc-toast__act" type="button" id="bcToastAct">Ver bolsa</button>',
+      '  </div>',
+      '</div>'
+    ].join('\n');
+  }
+
+  /* ---------------- totales ---------------- */
+  function count() { return cart.reduce(function (n, it) { return n + it.qty; }, 0); }
+  function subtotal() { return cart.reduce(function (n, it) { return n + it.price * it.qty; }, 0); }
+  function discount() { return coupon ? subtotal() * coupon.pct : 0; }
+  function shipping() {
+    if (!cart.length) return 0;
+    return subtotal() - discount() >= FREE_SHIP ? 0 : SHIP_FEE;
+  }
+  function total() { return subtotal() - discount() + shipping(); }
+
+  /* ---------------- render ---------------- */
+  function render() {
+    paintBadge();
+    renderItems();
+    renderShip();
+    renderFoot();
+  }
+
+  function paintBadge() {
+    var n = count();
+    Array.prototype.forEach.call(document.querySelectorAll('[data-bc-cartcount]'), function (b) {
+      b.textContent = n > 99 ? '99+' : String(n);
+      b.style.display = n ? '' : 'none';
+    });
+    Array.prototype.forEach.call(document.querySelectorAll('[data-bc-cartbtn]'), function (b) {
+      b.setAttribute('aria-label', n ? 'Bolsa de compras, ' + n + (n === 1 ? ' artículo' : ' artículos') : 'Bolsa de compras vacía');
+    });
+  }
+
+  function renderItems() {
+    var host = document.getElementById('bcItems');
+    if (!host) return;
+
+    var n = count();
+    var cnt = document.getElementById('bcDrawerCount');
+    if (cnt) cnt.textContent = n === 1 ? '1 artículo' : n + ' artículos';
+
+    if (!n) {
+      host.className = 'bc-empty';
+      host.innerHTML =
+        '<div class="bc-empty__icon">' + icon('shopping_bag', 30) + '</div>' +
+        '<h3>Tu bolsa está vacía</h3>' +
+        '<p>Elige tu torre y la elaboramos a mano el mismo día de la entrega.</p>' +
+        '<button class="bc-cta bc-cta--primary" type="button" data-bc-shop>' + icon('storefront', 18) + 'Explorar el catálogo</button>';
+      return;
+    }
+
+    host.className = 'bc-items';
+    host.innerHTML = cart.map(function (it) {
+      return [
+        '<div class="bc-item" data-id="' + esc(it.id) + '">',
+        it.img
+          ? '<img class="bc-item__img" src="' + esc(it.img) + '" alt="' + esc(it.name) + '">'
+          : '<div class="bc-item__img"></div>',
+        '<div>',
+        '<p class="bc-item__name">' + esc(it.name) + '</p>',
+        it.variant ? '<p class="bc-item__var">' + esc(it.variant) + '</p>' : '',
+        '<div class="bc-item__row">',
+        '<div class="bc-step">',
+        '<button type="button" data-bc-dec="' + esc(it.id) + '" aria-label="Quitar una unidad"' + (it.qty <= 1 ? ' disabled' : '') + '>' + icon('remove', 16) + '</button>',
+        '<span class="bc-step__val">' + it.qty + '</span>',
+        '<button type="button" data-bc-inc="' + esc(it.id) + '" aria-label="Añadir una unidad"' + (it.qty >= 20 ? ' disabled' : '') + '>' + icon('add', 16) + '</button>',
+        '</div>',
+        '<span class="bc-item__price">' + money(it.price * it.qty) + '</span>',
+        '<button class="bc-item__rm" type="button" data-bc-del="' + esc(it.id) + '" aria-label="Eliminar ' + esc(it.name) + '">' + icon('delete', 17) + '</button>',
+        '</div>',
+        '</div>',
+        '</div>'
+      ].join('');
+    }).join('');
+  }
+
+  function renderShip() {
+    var host = document.getElementById('bcShip');
+    if (!host) return;
+    if (!cart.length) { host.style.display = 'none'; return; }
+    host.style.display = '';
+    var net = subtotal() - discount();
+    var pct = Math.max(0, Math.min(100, (net / FREE_SHIP) * 100));
+    var left = FREE_SHIP - net;
+    host.innerHTML =
+      '<p class="bc-ship__txt">' + (left > 0
+        ? 'Te faltan <strong>' + money(left) + '</strong> para <strong>envío gratis</strong> hoy en NYC.'
+        : '¡Tienes <strong>envío gratis</strong> en Nueva York con entrega el mismo día!') + '</p>' +
+      '<div class="bc-ship__bar"><div class="bc-ship__fill" style="width:' + pct + '%"></div></div>';
+  }
+
+  function renderFoot() {
+    var host = document.getElementById('bcFoot');
+    if (!host) return;
+    if (!cart.length) { host.style.display = 'none'; return; }
+    host.style.display = '';
+
+    var msg = '';
+    var bad = '0';
+    if (coupon) {
+      msg = '✓ ' + coupon.label + ' aplicado';
+    } else if (couponErr) {
+      msg = couponErr;
+      bad = '1';
+    } else if (couponDraft) {
+      msg = 'Pulsa «Aplicar» para canjear tu código.';
+    }
+
+    var rows = [
+      '<dt>Subtotal</dt><dd>' + money(subtotal()) + '</dd>'
+    ];
+    if (coupon) {
+      rows.push('<dt class="is-discount">' + esc(coupon.label) + '</dt><dd class="is-discount">−' + money(discount()) + '</dd>');
+    }
+    rows.push('<dt>Envío same-day NYC</dt><dd>' + (shipping() ? money(shipping()) : 'Gratis') + '</dd>');
+
+    host.innerHTML =
+      '<div class="bc-coupon">' +
+      '<input type="text" id="bcCoupon" placeholder="Código de cortesía" value="' + (coupon ? esc(coupon.code) : esc(couponDraft)) + '" autocomplete="off" aria-label="Código de cortesía">' +
+      '<button type="button" id="bcCouponApply">' + (coupon ? 'Quitar' : 'Aplicar') + '</button>' +
+      '</div>' +
+      (msg ? '<p class="bc-coupon-msg ' + (bad === '1' ? 'err' : 'ok') + '" id="bcCouponMsg" data-bad="' + bad + '">' + esc(msg) + '</p>' : '') +
+      '<div class="bc-totals">' +
+      '<dl>' + rows.join('') + '</dl>' +
+      '<div class="bc-totals__grand"><span>Total</span><strong>' + money(total()) + '<small>USD</small></strong></div>' +
+      '</div>' +
+      '<button class="bc-cta bc-cta--primary" type="button" data-bc-checkout>' + icon('lock', 18) + 'Finalizar compra</button>' +
+      '<button class="bc-cta bc-cta--ghost" type="button" data-bc-continue>Seguir comprando</button>' +
+      '<p class="bc-note">' + icon('verified_user', 14) + 'Pago seguro · Frescura garantizada o te devolvemos el 100%</p>';
+  }
+
+  /* ---------------- acciones ---------------- */
+  function add(item) {
+    var id = item.id || slug(item.name + '|' + (item.variant || ''));
+    var found = null;
+    for (var i = 0; i < cart.length; i++) if (cart[i].id === id) found = cart[i];
+    if (found) {
+      found.qty = Math.min(20, found.qty + (item.qty || 1));
+      if (item.price != null) found.price = Number(item.price) || 0;
+    } else {
+      cart.push({
+        id: id,
+        name: item.name,
+        price: Number(item.price) || 0,
+        qty: Math.max(1, Math.min(20, item.qty || 1)),
+        img: item.img || '',
+        variant: item.variant || ''
+      });
+    }
+    couponDraft = '';
+    couponErr = '';
+    save();
+    render();
+    toast(item.name + (item.qty > 1 ? ' ×' + item.qty : ''));
+  }
+
+  function bump(id, delta) {
+    var it = cart.filter(function (x) { return x.id === id; })[0];
+    if (!it) return;
+    var next = it.qty + delta;
+    if (next < 1) return remove(id);
+    it.qty = Math.min(20, next);
+    save();
+    render();
+  }
+
+  function remove(id) {
+    cart = cart.filter(function (x) { return x.id !== id; });
+    save();
+    render();
+  }
+
+  function clear() {
+    cart = [];
+    coupon = null;
+    couponDraft = '';
+    couponErr = '';
+    save();
+    render();
+  }
+
+  function applyCoupon(raw) {
+    var code = String(raw || '').trim().toUpperCase();
+    couponDraft = code;
+    if (!code) {
+      coupon = null;
+      couponErr = 'Escribe un código para aplicarlo. Prueba BERRY10';
+    } else if (COUPONS[code]) {
+      coupon = { code: code, pct: COUPONS[code].pct, label: COUPONS[code].label };
+      couponErr = '';
+    } else {
+      coupon = null;
+      couponErr = 'Ese código no es válido. Prueba BERRY10';
+    }
+    renderFoot();
+  }
+
+  function dropCoupon() {
+    coupon = null;
+    couponDraft = '';
+    couponErr = '';
+    renderFoot();
+  }
+
+  /* ---------------- paneles ---------------- */
+  var openPanel = null;
+  var lastFocus = null;
+
+  function show(which) {
+    if (openPanel === which) return;
+    close(true);
+    var el = which === 'cart' ? document.getElementById('bcDrawer') : document.getElementById('bcMnav');
+    if (!el) return;
+    if (which === 'cart') render();
+    lastFocus = document.activeElement;
+    openPanel = which;
+    el.classList.add('is-open');
+    el.setAttribute('aria-hidden', 'false');
+    var ov = document.getElementById('bcOverlay');
+    if (ov) ov.classList.add('is-open');
+    document.body.classList.add('bc-locked');
+    var f = el.querySelector('button, a, input');
+    if (f) setTimeout(function () { try { f.focus(); } catch (e) {} }, 70);
+  }
+
+  function close(silent) {
+    ['bcDrawer', 'bcMnav'].forEach(function (id) {
+      var el = document.getElementById(id);
+      if (el) { el.classList.remove('is-open'); el.setAttribute('aria-hidden', 'true'); }
+    });
+    var ov = document.getElementById('bcOverlay');
+    if (ov) ov.classList.remove('is-open');
+    if (openPanel) document.body.classList.remove('bc-locked');
+    openPanel = null;
+    if (!silent && lastFocus && lastFocus.focus) { try { lastFocus.focus(); } catch (e) {} }
+    lastFocus = null;
+  }
+
+  function trapTab(e, panel) {
+    var f = panel.querySelectorAll('a[href], button:not([disabled]), input:not([disabled]), [tabindex]:not([tabindex="-1"])');
+    if (!f.length) return;
+    var first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  }
+
+  /* ---------------- toast ---------------- */
+  var toastTimer = null;
+  function toast(msg) {
+    var t = document.getElementById('bcToast');
+    var m = document.getElementById('bcToastMsg');
+    if (!t || !m) return;
+    m.textContent = msg;
+    t.classList.add('is-visible');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { t.classList.remove('is-visible'); }, 4200);
+  }
+
+  /* ---------------- navegación móvil ---------------- */
+  var NAV = [
+    {
+      key: 'catalogo',
+      label: 'Catálogo',
+      path: 'catalogo',
+      items: [
+        { i: 'local_florist', t: 'Torres de Fresas', s: 'Espirales de 40 a 200 fresas', p: 'towers' },
+        { i: 'cake', t: 'Postres & Dulces', s: 'Pasteles, cajas y shortcakes', p: 'postres-dulces' },
+        { i: 'local_florist', t: 'Bouquets Florales', s: 'Ramos comestibles de regalo', p: 'por-ocasion' }
+      ],
+      all: { t: 'Ver todo el catálogo', p: 'catalogo' }
+    },
+    {
+      key: 'por',
+      label: 'Por Ocasión',
+      path: 'por-ocasion',
+      items: [
+        { i: 'favorite', t: 'Bodas & Compromisos', s: 'Torres white-glove para el gran día', p: 'por-ocasion' },
+        { i: 'celebration', t: 'Aniversarios & Cumpleaños', s: 'Números y letras de chocolate', p: 'por-ocasion' },
+        { i: 'card_giftcard', t: 'Navidad & Fin de Año', s: 'Torres navideñas y regalos', p: 'por-ocasion' }
+      ],
+      all: { t: 'Ver todas las ocasiones', p: 'por-ocasion' }
+    },
+    { key: 'mismo-dia-contacto', label: 'Mismo Día & Contacto', path: 'mismo-dia-contacto', items: [] }
+  ];
+
+  function renderMnav() {
+    var host = document.getElementById('bcMnavBody');
+    if (!host) return;
+    var logo = document.querySelector('header img');
+    var lg = document.getElementById('bcMnavLogo');
+    if (logo && lg) lg.src = logo.src;
+
+    host.innerHTML = NAV.map(function (g, gi) {
+      if (!g.items.length) {
+        return '<div class="bc-mnav__item"><a class="bc-mnav__link" data-path="' + g.path + '" href="#"><span>' + esc(g.label) + '</span></a></div>';
+      }
+      var subs = g.items.map(function (it) {
+        return '<a data-path="' + esc(it.p) + '" href="#">' + esc(it.t) + '</a>';
+      }).join('');
+      subs += '<a class="is-all" data-path="' + esc(g.all.p) + '" href="#">' + esc(g.all.t) + '</a>';
+      return [
+        '<div class="bc-mnav__item" data-gi="' + gi + '">',
+        '<button class="bc-mnav__link" type="button" data-bc-expand aria-expanded="false">',
+        '<span>' + esc(g.label) + '</span>' + icon('expand_more', 18),
+        '</button>',
+        '<div class="bc-mnav__sub"><div class="bc-mnav__subinner">' + subs + '</div></div>',
+        '</div>'
+      ].join('');
+    }).join('');
+  }
+
+  /* ---------------- dropdowns escritorio ---------------- */
+  function buildDropdowns() {
+    Array.prototype.forEach.call(document.querySelectorAll('nav.bc-nav > a[data-group]'), function (a) {
+      var key = a.getAttribute('data-group');
+      var group = NAV.filter(function (g) { return g.key === key; })[0];
+      if (!group) return;
+
+      var wrap = document.createElement('div');
+      wrap.className = 'bc-nav-item relative';
+      var panel = document.createElement('div');
+      panel.className = 'bc-dd';
+      panel.innerHTML = [
+        '<div class="bc-dd__panel">',
+        '<p class="bc-dd__eyebrow">' + esc(group.label) + '</p>',
+        group.items.map(function (it) {
+          return '<a class="bc-dd__item" href="#" data-path="' + esc(it.p) + '">' + icon(it.i, 18) +
+                 '<span><b>' + esc(it.t) + '</b><span>' + esc(it.s) + '</span></span></a>';
+        }).join(''),
+        '<a class="bc-dd__all" href="#" data-path="' + esc(group.all.p) + '">' + esc(group.all.t) + '</a>',
+        '</div>'
+      ].join('');
+      wrap.appendChild(panel);
+      a.parentNode.insertBefore(wrap, a);
+      wrap.insertBefore(a, panel);
+      a.insertAdjacentHTML('beforeend', icon('expand_more', 16));
+      a.classList.add('bc-nav-item__btn', 'inline-flex', 'items-center', 'gap-1');
+    });
+  }
+
+  /* ---------------- wiring ---------------- */
+  function wire() {
+    // Hamburguesa antes del logo
+    var burger = document.createElement('button');
+    burger.className = 'bc-burger';
+    burger.type = 'button';
+    burger.setAttribute('aria-label', 'Abrir menú de navegación de DolceMoments');
+    burger.innerHTML = icon('menu');
+    burger.addEventListener('click', function () { show('mnav'); });
+    var logoA = document.querySelector('header a[data-path="catalogo"]');
+    if (logoA && logoA.parentElement) logoA.parentElement.insertBefore(burger, logoA);
+
+    buildDropdowns();
+
+    Array.prototype.forEach.call(document.querySelectorAll('[data-bc-cartbtn]'), function (b) {
+      b.addEventListener('click', function () { show('cart'); });
+    });
+
+    var ov = document.getElementById('bcOverlay');
+    if (ov) ov.addEventListener('click', function () { close(); });
+
+    document.addEventListener('input', function (e) {
+      if (e.target && e.target.id === 'bcCoupon') couponDraft = e.target.value;
+    });
+
+    document.addEventListener('click', function (e) {
+      var t = e.target;
+      if (!t || !t.closest) return;
+
+      if (t.closest('[data-bc-close]')) { e.preventDefault(); close(); return; }
+      if (t.closest('[data-bc-shop]')) {
+        close();
+        var g = document.getElementById('productGrid');
+        if (g) g.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        return;
+      }
+      if (t.closest('[data-bc-continue]')) { close(); return; }
+      if (t.closest('[data-bc-checkout]')) { checkout(); return; }
+      if (t.closest('#bcToastAct')) {
+        document.getElementById('bcToast').classList.remove('is-visible');
+        show('cart');
+        return;
+      }
+
+      var inc = t.closest('[data-bc-inc]');
+      if (inc) { bump(inc.getAttribute('data-bc-inc'), 1); return; }
+      var dec = t.closest('[data-bc-dec]');
+      if (dec) { bump(dec.getAttribute('data-bc-dec'), -1); return; }
+      var del = t.closest('[data-bc-del]');
+      if (del) { remove(del.getAttribute('data-bc-del')); return; }
+
+      if (t.closest('#bcCouponApply')) {
+        if (coupon) dropCoupon();
+        else applyCoupon(couponDraft);
+        return;
+      }
+
+      var exp = t.closest('[data-bc-expand]');
+      if (exp) {
+        var item = exp.closest('.bc-mnav__item');
+        var on = item.classList.toggle('is-expanded');
+        exp.setAttribute('aria-expanded', on ? 'true' : 'false');
+        return;
+      }
+
+      if (t.closest('.bc-mnav__sub a') || (t.closest('.bc-mnav__link') && t.closest('.bc-mnav__link').tagName === 'A')) {
+        close();
+      }
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' && e.target && e.target.id === 'bcCoupon') { applyCoupon(e.target.value); return; }
+      if (e.key === 'Escape') { close(); return; }
+      if (e.key === 'Tab' && openPanel) {
+        trapTab(e, document.getElementById(openPanel === 'cart' ? 'bcDrawer' : 'bcMnav'));
+      }
+    });
+
+    // Botones "Añadir" de las tarjetas de producto.
+    // Hay dos plantillas distintas en el sitio: .product-card (catálogo de torres,
+    // título en <h3> y data-price) y .product-item (catálogo de postres,
+    // título en <h2>, sin data-price y con data-product).
+    Array.prototype.forEach.call(document.querySelectorAll('.product-card, .product-item'), function (card) {
+      var h = card.querySelector('h3, h2');
+      var im = card.querySelector('img');
+      var title = (h ? h.textContent : '').replace(/\s+/g, ' ').trim() || card.dataset.product || 'Producto';
+      var src = im ? im.src : '';
+
+      var price = parseFloat(card.dataset.price);
+      if (!isFinite(price)) {
+        var m = (card.textContent || '').match(/\$\s?([\d,]+\.\d{2})/);
+        price = m ? parseFloat(m[1].replace(/,/g, '')) : 0;
+      }
+
+      Array.prototype.forEach.call(card.querySelectorAll('button'), function (btn) {
+        if (!/a\u00f1adir/i.test(btn.textContent || '')) return;
+        if (btn.hasAttribute('data-bc-cartbtn')) return;
+        btn.addEventListener('click', function () {
+          add({ name: title, img: src, price: price, qty: 1, variant: 'Desde ' + money(price) });
+        });
+      });
+    });
+
+    // PDP: botón principal de "Añadir al carrito"
+    var pdpBtn = document.getElementById('addToCartBtn');
+    if (pdpBtn) {
+      pdpBtn.addEventListener('click', function () {
+        var h1 = document.querySelector('h1');
+        var img = document.getElementById('mainPdpImage');
+        var sizeRadio = document.querySelector('input[name="tower_size"]:checked');
+        var sizeLabel = sizeRadio ? (String(sizeRadio.getAttribute('onchange') || '').match(/'([^']+)'/) || [])[1] : '';
+        var choc = document.getElementById('selectedChocLabel');
+        var extras = [];
+        ['addonTopper', 'addonBow'].forEach(function (id) {
+          var el = document.getElementById(id);
+          if (el && el.checked) extras.push('+' + money(parseFloat(el.value || '0')));
+        });
+        var variant = [sizeLabel, choc ? choc.textContent.trim() : '', extras.join(' ')].filter(Boolean).join(' · ');
+        var unit = parseFloat(document.getElementById('displayPrice').textContent.replace(/[^0-9.]/g, '')) || 285;
+        var qty = parseInt((document.getElementById('qtyVal') || {}).textContent || '1', 10) || 1;
+        add({
+          name: (window.__PDP_CURRENT__ && window.__PDP_CURRENT__.n) || (h1 ? h1.textContent.trim().replace(/\s+/g, ' ') : 'Producto'),
+          img: img ? img.src : '',
+          price: unit,
+          qty: qty,
+          variant: variant
+        });
+      });
+    }
+  }
+
+  function checkout() {
+    var n = count();
+    toast(n + (n === 1 ? ' artículo listo' : ' artículos listos') + ' para pagar · ' + money(total()));
+  }
+
+  /* ---------------- init ---------------- */
+  function init() {
+    document.body.insertAdjacentHTML('beforeend', shellHTML());
+    renderMnav();
+    wire();
+    cart = load();
+    render();
+    window.BerryccinoCart = {
+      add: add,
+      bump: bump,
+      remove: remove,
+      clear: clear,
+      count: count,
+      subtotal: subtotal,
+      discount: discount,
+      shipping: shipping,
+      total: total,
+      open: function () { show('cart'); },
+      close: close,
+      items: function () { return cart.slice(); }
+    };
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+
+</script>
+</body></html>

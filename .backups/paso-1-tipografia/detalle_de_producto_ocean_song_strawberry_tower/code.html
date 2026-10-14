@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "inverse-primary": "#ffb2be", "cream-champagne": "#FAF6F0", "strawberry-blush": "#F1B2BD", "outline-variant": "#dfbfc3", "tertiary-container": "#90702e", "strawberry-rose": "#D84A6E", "primary": "#ab274e", "surface-bright": "#fdf9f3", "chocolate-espresso": "#2B1E1A", "surface-container": "#f1ede7", "primary-container": "#cc4165", "cream-surface": "#FDFBF7", "on-surface-variant": "#584144", "on-primary-container": "#fffbff", "surface-container-highest": "#e6e2dc", "cream-subtle": "#ECE8E8", "surface-variant": "#e6e2dc", "surface": "#fdf9f3", "surface-container-high": "#ebe8e2", "on-primary-fixed-variant": "#8d0b39", "on-background": "#1c1c18", "surface-tint": "#ae2a50", "surface-container-low": "#f7f3ed", "primary-fixed-dim": "#ffb2be", "on-error": "#ffffff", "tertiary-fixed": "#ffdea5", "inverse-on-surface": "#f4f0ea", "surface-container-lowest": "#ffffff", "error-container": "#ffdad6", "chocolate-deep": "#1C1311", "on-tertiary-fixed-variant": "#5d4201", "on-secondary-fixed-variant": "#53433e", "surface-dim": "#dddad4", "on-secondary-container": "#705f59", "secondary-container": "#f3dbd4", "secondary": "#6c5b55", "error": "#ba1a1a", "inverse-surface": "#31302d", "on-tertiary": "#ffffff", "on-tertiary-fixed": "#261900", "on-primary-fixed": "#400015", "outline": "#8b7074", "accent-gold-light": "#E2CA94", "on-secondary-fixed": "#251915", "secondary-fixed-dim": "#d8c2bb", "on-secondary": "#ffffff", "on-error-container": "#93000a", "on-tertiary-container": "#fffbff", "secondary-fixed": "#f5ddd7", "tertiary-fixed-dim": "#e9c176", "on-surface": "#1c1c18", "primary-fixed": "#ffd9de", "accent-gold": "#C5A059", "tertiary": "#755717", "on-primary": "#ffffff", "background": "#fdf9f3" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-xl": "2.5rem", "space-2xl": "4rem", "space-sm": "0.5rem", "gutter-mobile": "1rem", "space-md": "1rem", "gutter": "1.5rem", "space-lg": "1.5rem", "margin-mobile": "1.25rem", "margin": "3rem", "space-xs": "0.25rem" }, "fontFamily": { "label-lg": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "headline-sm": ["Playfair Display"], "label-md": ["Plus Jakarta Sans"], "display-lg": ["Playfair Display"], "title-lg": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "display-lg-mobile": ["Playfair Display"], "title-md": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Playfair Display"], "headline-lg": ["Playfair Display"], "body-lg": ["Plus Jakarta Sans"], "label-caps": ["Plus Jakarta Sans"], "headline-md": ["Playfair Display"] }, "fontSize": { "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.04em", "fontWeight": "600" }], "body-sm": ["13px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "400" }], "headline-sm": ["22px", { "lineHeight": "30px", "letterSpacing": "0.01em", "fontWeight": "600" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.06em", "fontWeight": "600" }], "display-lg": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "600" }], "title-lg": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "body-md": ["15px", { "lineHeight": "24px", "letterSpacing": "0.005em", "fontWeight": "400" }], "display-lg-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "title-md": ["16px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "600" }], "headline-lg-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "0em", "fontWeight": "500" }], "headline-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.015em", "fontWeight": "500" }], "body-lg": ["18px", { "lineHeight": "28px", "letterSpacing": "0em", "fontWeight": "400" }], "label-caps": ["11px", { "lineHeight": "16px", "letterSpacing": "0.12em", "fontWeight": "700" }], "headline-md": ["28px", { "lineHeight": "36px", "letterSpacing": "0em", "fontWeight": "500" }] } } } }</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-cream-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(43,30,26,0.06)]"><div class="bg-chocolate-espresso py-1.5 px-margin text-center"><p class="font-label-caps text-label-caps text-cream-champagne flex items-center justify-center gap-space-xs"><span class="text-accent-gold">✨</span><span>Entrega el mismo día en Nueva York &amp; Brooklyn | Frescura artesanal garantizada</span><span class="text-accent-gold">✨</span></p></div><div class="h-20 max-w-[1360px] mx-auto px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><a class="flex items-center gap-space-sm" data-path="catalogo" href="#"><img alt="Berryccino Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Xd0c5IKKylahsQnqaZP4bl3zLvTHZTw3a6JbwTTelABrTiYaGWU5va12ymBpFch3TZ4jA2KV7dN0i0uT6ebgvt58Uj6xLeDdZwDe5ea7tQUi8YzPfgG7v2R0Q2n4pCPLX7M4urs-3GG7IpZYlPG3YNmZmn1kGDYgyhjIZggS7FC4rT4OtbGSLh7UWXpmr4MPeMouEeGKCO2njzzrg6wh9R50m-qqjQbiRPfdZB9wUxSaqyHWizA1R1L8TV"/><span class="font-headline-sm text-headline-sm text-chocolate-espresso tracking-tight hidden sm:inline-block">Berryccino</span></a></div><nav class="hidden xl:flex items-center gap-space-lg" data-active-classes="text-primary font-bold"><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-chocolate-espresso transition-colors" data-path="catalogo" href="#">Catálogo</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-chocolate-espresso transition-colors" data-path="postres-dulces" href="#">Postres &amp; Dulces</a><a aria-current="page" class="transition-colors text-primary font-bold" data-path="detalle-de-producto" href="#">Detalle de Producto</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-chocolate-espresso transition-colors" data-path="por-ocasion" href="#">Por Ocasión</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-chocolate-espresso transition-colors" data-path="mismo-dia-contacto" href="#">Mismo Día &amp; Contacto</a></nav><div class="flex items-center gap-space-md"><a class="hidden lg:flex items-center gap-space-xs px-space-md py-1.5 rounded-full bg-cream-champagne text-chocolate-espresso hover:bg-secondary-container hover:text-on-secondary-container transition-colors shadow-[0_1px_4px_rgba(43,30,26,0.06)]" href="tel:+13156642576"><span class="material-symbols-outlined text-[16px] text-tertiary">call</span><span class="font-label-md text-label-md tracking-wider">+1 (315) 664-2576</span></a><button aria-label="Buscar en tienda" class="w-9 h-9 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">search</span></button><a aria-label="Mi cuenta" class="w-9 h-9 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="mi-cuenta" href="#"><span class="material-symbols-outlined text-[20px]">person_outline</span></a><button aria-label="Bolsa de compras" class="relative w-9 h-9 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">shopping_bag</span><span class="absolute top-0.5 right-0.5 w-4 h-4 rounded-full bg-strawberry-rose text-on-primary font-label-caps text-[9px] flex items-center justify-center shadow-sm">3</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-20rem)]"><div class="flex flex-col w-full">
+<!-- Top Breadcrumb & Ambient Bar -->
+<section class="w-full bg-cream-champagne/60 border-b border-chocolate-espresso/5 py-4">
+<div class="max-w-[1360px] mx-auto px-margin flex items-center justify-between text-secondary">
+<nav class="flex items-center gap-2 font-label-md text-label-md text-secondary">
+<a class="hover:text-chocolate-espresso transition-colors" href="#">Inicio</a>
+<span class="text-chocolate-espresso/30 text-[10px]">/</span>
+<a class="hover:text-chocolate-espresso transition-colors" href="#">Torres de Fresas</a>
+<span class="text-chocolate-espresso/30 text-[10px]">/</span>
+<span class="text-chocolate-espresso font-semibold">Ocean Song Strawberry Tower</span>
+</nav>
+<div class="hidden sm:flex items-center gap-2 font-label-caps text-label-caps text-tertiary">
+<span class="w-2 h-2 rounded-full bg-tertiary animate-pulse"></span>
+<span>Preparado fresco por encargo • Brooklyn Atelier</span>
+</div>
+</div>
+</section>
+<!-- Main PDP Hero Container -->
+<section class="max-w-[1360px] mx-auto px-margin py-8 lg:py-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 xl:gap-14 items-start">
+<!-- LEFT COLUMN: Luxury Visual Showcase -->
+<div class="lg:col-span-6 flex flex-col gap-5 sticky top-28">
+<!-- Main Image Stage -->
+<div class="relative w-full aspect-[4/5] rounded-xl overflow-hidden bg-cream-surface shadow-[0_16px_40px_-12px_rgba(43,30,26,0.12)] group">
+<img alt="Ocean Song Strawberry Tower" class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" id="mainPdpImage" src="https://lh3.googleusercontent.com/aida/AEtjO1WazzRuRjozK1D_ZIPUwYjaZmHEROLFTzEOJznU7tDdo37ktoVJZNf_uiv2_WVfmvvi90KasC0jQMKXpCZCTswTx9zHTVjoAzcpBQL4C90fNEx6i8uDyuGkpe5fZOp34hdYDj2TANphOmKLAov9PHBWzdhB3MgAsLQ7kV_iXEoch4sJOUQerfeQlJTFT8PZNR8nN6UyKjEUijsLslMX48hzHuDA6W6ufX0Ea31EI1Hne2lWLVw7605Q21mw"/>
+<!-- Badges Overlay -->
+<div class="absolute top-4 left-4 flex flex-col gap-2 z-10">
+<span class="px-3.5 py-1.5 rounded-full bg-chocolate-espresso/90 text-cream-champagne backdrop-blur-md font-label-caps text-label-caps tracking-wider shadow-sm">
+              MÁS VENDIDO
+            </span>
+<span class="px-3 py-1 rounded-full bg-strawberry-rose/90 text-on-primary backdrop-blur-md font-label-caps text-[10px] tracking-widest shadow-sm">
+              EDICIÓN OCEAN SONG
+            </span>
+</div>
+<!-- Subtle Zoom Cue -->
+<div class="absolute bottom-4 right-4 px-3 py-1.5 rounded-full bg-cream-surface/90 backdrop-blur-md shadow-sm text-chocolate-espresso flex items-center gap-1.5 font-label-md text-label-md opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined text-[16px]">zoom_in</span>
+<span>Vista artesanal</span>
+</div>
+</div>
+<!-- Thumbnail Carousel Rail -->
+<div class="grid grid-cols-4 gap-3 sm:gap-4">
+<button class="thumb-btn relative aspect-square rounded-lg overflow-hidden bg-cream-surface p-1 shadow-sm transition-all duration-300 ring-2 ring-strawberry-rose" onclick="updateMainImage('https://lh3.googleusercontent.com/aida/AEtjO1WazzRuRjozK1D_ZIPUwYjaZmHEROLFTzEOJznU7tDdo37ktoVJZNf_uiv2_WVfmvvi90KasC0jQMKXpCZCTswTx9zHTVjoAzcpBQL4C90fNEx6i8uDyuGkpe5fZOp34hdYDj2TANphOmKLAov9PHBWzdhB3MgAsLQ7kV_iXEoch4sJOUQerfeQlJTFT8PZNR8nN6UyKjEUijsLslMX48hzHuDA6W6ufX0Ea31EI1Hne2lWLVw7605Q21mw', this)" type="button">
+<img alt="Vista principal Ocean Song" class="w-full h-full object-cover rounded-md" src="https://lh3.googleusercontent.com/aida/AEtjO1WazzRuRjozK1D_ZIPUwYjaZmHEROLFTzEOJznU7tDdo37ktoVJZNf_uiv2_WVfmvvi90KasC0jQMKXpCZCTswTx9zHTVjoAzcpBQL4C90fNEx6i8uDyuGkpe5fZOp34hdYDj2TANphOmKLAov9PHBWzdhB3MgAsLQ7kV_iXEoch4sJOUQerfeQlJTFT8PZNR8nN6UyKjEUijsLslMX48hzHuDA6W6ufX0Ea31EI1Hne2lWLVw7605Q21mw"/>
+</button>
+<button class="thumb-btn relative aspect-square rounded-lg overflow-hidden bg-cream-surface p-1 shadow-sm hover:shadow-md transition-all duration-300 ring-1 ring-chocolate-espresso/10" onclick="updateMainImage('https://lh3.googleusercontent.com/aida/AEtjO1XU7F_f0ROQnc2wxw-Z1go9xnbbkq-ZNNQELuxiXBrptGrUVs4_cx0uv3N1Ns-qAoUPa-0jXr5fTAOoF2CGSsDHwpWfvnuISOvO-HQXuHRTWr22eE6MoZQirkSYxZtclB2aII4RQgkjqU_LUgDXTQJvGAL7PxdUpDsJhpj11XcqBWHQNePuvVFYFlfKqlGHStBr2JZlNklhiQVKIoudadCG5WcEqEIxMPnmApyFRKcZMTUlrCEW_LpNA3s', this)" type="button">
+<img alt="Detalle de rosas y fresas" class="w-full h-full object-cover rounded-md" src="https://lh3.googleusercontent.com/aida/AEtjO1XU7F_f0ROQnc2wxw-Z1go9xnbbkq-ZNNQELuxiXBrptGrUVs4_cx0uv3N1Ns-qAoUPa-0jXr5fTAOoF2CGSsDHwpWfvnuISOvO-HQXuHRTWr22eE6MoZQirkSYxZtclB2aII4RQgkjqU_LUgDXTQJvGAL7PxdUpDsJhpj11XcqBWHQNePuvVFYFlfKqlGHStBr2JZlNklhiQVKIoudadCG5WcEqEIxMPnmApyFRKcZMTUlrCEW_LpNA3s"/>
+</button>
+<button class="thumb-btn relative aspect-square rounded-lg overflow-hidden bg-cream-surface p-1 shadow-sm hover:shadow-md transition-all duration-300 ring-1 ring-chocolate-espresso/10" onclick="updateMainImage('https://lh3.googleusercontent.com/aida/AEtjO1WfSv73EsnSsZKP7FtCMssK23th7FazL93IqAz95KPJCpx1hIcI5fjBtzb7N_1uhfqizl2gmqkezh4-ybbKDMh3UZ62nLD87pLaWVGG3JfHMyOS9TAVkcKpLylj5LPfz0hAU_wzg5_C24k8cbnMMcBtMJ7NLC1sEU5m39XVsPBrHOyOXPb8FQrq0K798t4p-9MZT6T6p2M7bAqqaAuGe69_huS6FLxQLrBWZUImK7TTPun6sqQ4yBRyxMyk', this)" type="button">
+<img alt="Presentación gourmet Berryccino" class="w-full h-full object-cover rounded-md" src="https://lh3.googleusercontent.com/aida/AEtjO1WfSv73EsnSsZKP7FtCMssK23th7FazL93IqAz95KPJCpx1hIcI5fjBtzb7N_1uhfqizl2gmqkezh4-ybbKDMh3UZ62nLD87pLaWVGG3JfHMyOS9TAVkcKpLylj5LPfz0hAU_wzg5_C24k8cbnMMcBtMJ7NLC1sEU5m39XVsPBrHOyOXPb8FQrq0K798t4p-9MZT6T6p2M7bAqqaAuGe69_huS6FLxQLrBWZUImK7TTPun6sqQ4yBRyxMyk"/>
+</button>
+<button class="thumb-btn relative aspect-square rounded-lg overflow-hidden bg-cream-surface p-1 shadow-sm hover:shadow-md transition-all duration-300 ring-1 ring-chocolate-espresso/10" onclick="updateMainImage('https://lh3.googleusercontent.com/aida/AEtjO1Wmquso9uPnPbCkrLyZtnb-ajf65SSyEZWl-_LG22Dbu3GRWLJzF0VucfR_p-Wull5w63-Blm2ZTFcSq7X16sP7aDiiZsnqw8r-b8GkVJYtPwRa0l_c1p2CFXfmxHP1PdlNi6wlTowWaLmpRIZsu1D6WOhjJeOLm7TpVW4v9Pyjr2ENjXnu3M625mTQrHyO_f7jlgKCFhU44L_MTASU_Ty6Ix8TCVeS2kgj7X-6qSBXnXmSI3McqFIE66oN', this)" type="button">
+<img alt="Arreglos dulces y caja especial" class="w-full h-full object-cover rounded-md" src="https://lh3.googleusercontent.com/aida/AEtjO1Wmquso9uPnPbCkrLyZtnb-ajf65SSyEZWl-_LG22Dbu3GRWLJzF0VucfR_p-Wull5w63-Blm2ZTFcSq7X16sP7aDiiZsnqw8r-b8GkVJYtPwRa0l_c1p2CFXfmxHP1PdlNi6wlTowWaLmpRIZsu1D6WOhjJeOLm7TpVW4v9Pyjr2ENjXnu3M625mTQrHyO_f7jlgKCFhU44L_MTASU_Ty6Ix8TCVeS2kgj7X-6qSBXnXmSI3McqFIE66oN"/>
+</button>
+</div>
+<!-- Social Proof Micro-Strip -->
+<div class="bg-cream-champagne/70 rounded-xl p-4 flex items-center justify-between shadow-[0_4px_16px_rgba(43,30,26,0.03)]">
+<div class="flex items-center gap-3">
+<div class="flex -space-x-2">
+<span class="w-8 h-8 rounded-full bg-strawberry-blush flex items-center justify-center font-bold text-[12px] text-chocolate-espresso ring-2 ring-cream-surface">V</span>
+<span class="w-8 h-8 rounded-full bg-secondary-fixed flex items-center justify-center font-bold text-[12px] text-chocolate-espresso ring-2 ring-cream-surface">C</span>
+<span class="w-8 h-8 rounded-full bg-accent-gold-light flex items-center justify-center font-bold text-[12px] text-chocolate-espresso ring-2 ring-cream-surface">L</span>
+</div>
+<div class="flex flex-col">
+<span class="font-title-md text-[13px] leading-tight text-chocolate-espresso">Elegido por +620 celebraciones</span>
+<span class="font-body-sm text-[12px] text-secondary">Bodas, aniversarios y propuestas de matrimonio en NYC</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-accent-gold text-[24px]">verified</span>
+</div>
+</div>
+<!-- RIGHT COLUMN: Product Configuration & Order Suite -->
+<div class="lg:col-span-6 flex flex-col gap-6">
+<!-- Header Info -->
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps tracking-widest text-tertiary uppercase">
+              COLECCIÓN ARTESANAL 2025
+            </span>
+<span class="inline-flex items-center gap-1 font-label-md text-label-md text-secondary">
+<span class="material-symbols-outlined text-[16px] text-accent-gold" style="font-variation-settings: 'FILL' 1;">star</span>
+<strong class="text-chocolate-espresso font-semibold">5.0</strong>
+<span class="underline underline-offset-2">(48 valoraciones verificadas)</span>
+</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-chocolate-espresso tracking-tight">
+            Ocean Song — Torre Escultural de Fresas &amp; Rosas Pastel
+          </h1>
+<div class="flex items-baseline gap-3 pt-1">
+<span class="font-headline-md text-headline-md text-chocolate-deep font-semibold" id="displayPrice">
+              $285.00 <span class="font-title-md text-title-md text-secondary font-normal">USD</span>
+</span>
+<span class="font-body-sm text-body-sm text-secondary">
+              Impuestos calculados en el pago
+            </span>
+</div>
+<p class="font-body-md text-body-md text-secondary leading-relaxed pt-1">
+            Una obra maestra comestible elaborada al momento con fresas seleccionadas de huerto, bañadas individualmente en chocolate belga tono pastel y coronada con rosas frescas de invernadero. Un centro de mesa inolvidable para ocasiones memorables.
+          </p>
+</div>
+<div class="h-[1px] w-full bg-chocolate-espresso/8"></div>
+<!-- 1. Size / Height Selection -->
+<div class="flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<label class="font-title-md text-title-md text-chocolate-espresso">
+              1. Selecciona el Tamaño de la Torre
+            </label>
+<span class="font-body-sm text-body-sm text-tertiary cursor-pointer hover:underline">
+              Guía de porciones
+            </span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+<!-- Small -->
+<label class="size-card cursor-pointer relative p-3.5 rounded-xl bg-cream-surface border border-chocolate-espresso/10 hover:border-chocolate-espresso/30 transition-all flex flex-col justify-between h-full">
+<input class="sr-only" name="tower_size" onchange="selectSize(this, 'Pequeña (40-45 fresas)')" type="radio" value="200.00"/>
+<div class="flex flex-col">
+<span class="font-title-md text-[14px] text-chocolate-espresso">Pequeña</span>
+<span class="font-body-sm text-[12px] text-secondary">40-45 fresas • 35cm</span>
+</div>
+<span class="font-title-md text-[15px] font-bold text-chocolate-espresso mt-3">$200.00</span>
+</label>
+<!-- Medium (Recommended) -->
+<label class="size-card is-active cursor-pointer relative p-3.5 rounded-xl bg-cream-surface border-2 border-strawberry-rose shadow-md transition-all flex flex-col justify-between h-full">
+<input checked="" class="sr-only" name="tower_size" onchange="selectSize(this, 'Mediana (65-70 fresas)')" type="radio" value="285.00"/>
+<span class="absolute -top-2.5 right-3 px-2 py-0.5 rounded-full bg-strawberry-rose text-on-primary font-label-caps text-[9px] uppercase tracking-wider">
+                Recomendado
+              </span>
+<div class="flex flex-col">
+<span class="font-title-md text-[14px] text-chocolate-espresso">Mediana</span>
+<span class="font-body-sm text-[12px] text-secondary">65-70 fresas • 50cm</span>
+</div>
+<span class="font-title-md text-[15px] font-bold text-strawberry-rose mt-3">$285.00</span>
+</label>
+<!-- Imperial -->
+<label class="size-card cursor-pointer relative p-3.5 rounded-xl bg-cream-surface border border-chocolate-espresso/10 hover:border-chocolate-espresso/30 transition-all flex flex-col justify-between h-full">
+<input class="sr-only" name="tower_size" onchange="selectSize(this, 'Grande / Imperial (95-100 fresas)')" type="radio" value="370.00"/>
+<div class="flex flex-col">
+<span class="font-title-md text-[14px] text-chocolate-espresso">Imperial</span>
+<span class="font-body-sm text-[12px] text-secondary">95-100 fresas • 65cm</span>
+</div>
+<span class="font-title-md text-[15px] font-bold text-chocolate-espresso mt-3">$370.00</span>
+</label>
+</div>
+</div>
+<!-- 2. Chocolate Palette Selector -->
+<div class="flex flex-col gap-2.5">
+<label class="font-title-md text-title-md text-chocolate-espresso flex items-center justify-between">
+<span>2. Selección de Cobertura de Chocolate</span>
+<span class="font-body-sm text-body-sm text-strawberry-rose font-medium" id="selectedChocLabel">Chocolate Belga Rosa &amp; Lavanda</span>
+</label>
+<div class="flex flex-wrap gap-2.5">
+<button class="choc-chip px-4 py-2 rounded-full font-label-md text-label-md bg-chocolate-espresso text-on-secondary shadow-sm transition-all" onclick="setChocVariant(this, 'Chocolate Belga Rosa &amp; Lavanda')" type="button">
+              Chocolate Belga Rosa &amp; Lavanda
+            </button>
+<button class="choc-chip px-4 py-2 rounded-full font-label-md text-label-md bg-cream-surface text-chocolate-espresso border border-chocolate-espresso/15 hover:border-chocolate-espresso/30 transition-all" onclick="setChocVariant(this, 'Chocolate Blanco Callebaut')" type="button">
+              Chocolate Blanco Callebaut
+            </button>
+<button class="choc-chip px-4 py-2 rounded-full font-label-md text-label-md bg-cream-surface text-chocolate-espresso border border-chocolate-espresso/15 hover:border-chocolate-espresso/30 transition-all" onclick="setChocVariant(this, 'Dúo Chocolate con Leche y Rubí')" type="button">
+              Dúo Chocolate con Leche &amp; Rubí
+            </button>
+</div>
+</div>
+<!-- 3. Add-ons / Complementos -->
+<div class="flex flex-col gap-3">
+<label class="font-title-md text-title-md text-chocolate-espresso">
+            3. Complementos de Lujo &amp; Personalización
+          </label>
+<div class="flex flex-col gap-2">
+<!-- Addon 1 -->
+<label class="flex items-center justify-between p-3 rounded-lg bg-cream-surface border border-chocolate-espresso/10 hover:border-chocolate-espresso/25 transition-colors cursor-pointer">
+<div class="flex items-center gap-3">
+<input class="w-4 h-4 rounded text-strawberry-rose focus:ring-strawberry-rose accent-strawberry-rose" id="addonTopper" onchange="updateTotalCost()" type="checkbox" value="15.00"/>
+<div class="flex flex-col">
+<span class="font-title-md text-[14px] text-chocolate-espresso">Topper personalizado de acrílico dorado</span>
+<span class="font-body-sm text-[12px] text-secondary">Frase a medida: "Happy Birthday", "Te Amo", "Just Married"</span>
+</div>
+</div>
+<span class="font-title-md text-[14px] font-semibold text-chocolate-espresso">+$15.00</span>
+</label>
+<!-- Addon 2 -->
+<label class="flex items-center justify-between p-3 rounded-lg bg-cream-surface border border-chocolate-espresso/10 hover:border-chocolate-espresso/25 transition-colors cursor-pointer">
+<div class="flex items-center gap-3">
+<input class="w-4 h-4 rounded text-strawberry-rose focus:ring-strawberry-rose accent-strawberry-rose" id="addonBow" onchange="updateTotalCost()" type="checkbox" value="10.00"/>
+<div class="flex flex-col">
+<span class="font-title-md text-[14px] text-chocolate-espresso">Moño de seda italiano con dedicatoria en caligrafía</span>
+<span class="font-body-sm text-[12px] text-secondary">Mensaje sellado con lacre dorado Berryccino</span>
+</div>
+</div>
+<span class="font-title-md text-[14px] font-semibold text-chocolate-espresso">+$10.00</span>
+</label>
+<!-- Addon 3 (Included) -->
+<label class="flex items-center justify-between p-3 rounded-lg bg-secondary-container/30 border border-secondary/20 cursor-pointer">
+<div class="flex items-center gap-3">
+<input checked="" class="w-4 h-4 rounded text-strawberry-rose accent-strawberry-rose" disabled="" type="checkbox"/>
+<div class="flex flex-col">
+<span class="font-title-md text-[14px] text-chocolate-espresso">Caja de bombones de corteza belga de cortesía</span>
+<span class="font-body-sm text-[12px] text-tertiary font-medium">Incluido sin costo con la orden de hoy</span>
+</div>
+</div>
+<span class="font-label-caps text-label-caps text-tertiary">GRATIS</span>
+</label>
+</div>
+</div>
+<!-- 4. Delivery Date & Time (Same Day NY / Brooklyn) -->
+<div class="p-4 rounded-xl bg-cream-champagne/80 border border-chocolate-espresso/10 flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-[15px] text-chocolate-espresso flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary text-[20px]">local_shipping</span>
+              Entrega Climatizada en NY &amp; Brooklyn
+            </span>
+<span class="px-2.5 py-1 rounded bg-cream-surface font-label-caps text-[10px] text-chocolate-espresso shadow-xs">
+              Mismo Día Disponible
+            </span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+<div>
+<label class="font-label-md text-label-md text-secondary block mb-1">Fecha requerida</label>
+<select class="w-full bg-cream-surface text-chocolate-espresso font-body-sm text-body-sm px-3 py-2.5 rounded-lg border border-chocolate-espresso/15 focus:outline-none focus:ring-2 focus:ring-strawberry-rose/30">
+<option value="today">Hoy (Entrega antes de 7:00 PM)</option>
+<option value="tomorrow">Mañana (Ventana 10:00 AM - 2:00 PM)</option>
+<option value="tomorrow_pm">Mañana (Ventana 3:00 PM - 7:00 PM)</option>
+<option value="custom">Elegir fecha para evento especial...</option>
+</select>
+</div>
+<div>
+<label class="font-label-md text-label-md text-secondary block mb-1">Código Postal de entrega</label>
+<div class="relative">
+<input class="w-full bg-cream-surface text-chocolate-espresso font-body-sm text-body-sm px-3 py-2.5 rounded-lg border border-chocolate-espresso/15 focus:outline-none focus:ring-2 focus:ring-strawberry-rose/30 uppercase" placeholder="Ej. 11215 o 10001" type="text"/>
+<button class="absolute right-2 top-2 px-2.5 py-1 rounded bg-chocolate-espresso text-cream-champagne font-label-caps text-[10px] hover:bg-chocolate-deep transition-colors" type="button">
+                  Validar
+                </button>
+</div>
+</div>
+</div>
+<p class="font-body-sm text-[12px] text-secondary flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[15px] text-primary">schedule</span>
+            Ordena dentro de las próximas <strong>2 hrs 14 min</strong> para entrega garantizada hoy en Manhattan y Brooklyn.
+          </p>
+</div>
+<!-- 5. Purchase Buttons & Quantity CTA -->
+<div class="flex flex-col gap-3 pt-2">
+<div class="flex items-center gap-3">
+<!-- Counter -->
+<div class="flex items-center rounded-lg bg-cream-surface border border-chocolate-espresso/15 p-1 h-12">
+<button class="w-10 h-full flex items-center justify-center text-chocolate-espresso hover:bg-secondary-container/50 rounded transition-colors" onclick="adjustQty(-1)" type="button">
+<span class="material-symbols-outlined text-[18px]">remove</span>
+</button>
+<span class="font-title-md text-title-md w-10 text-center text-chocolate-espresso font-semibold" id="qtyVal">1</span>
+<button class="w-10 h-full flex items-center justify-center text-chocolate-espresso hover:bg-secondary-container/50 rounded transition-colors" onclick="adjustQty(1)" type="button">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+<!-- Primary Add to Cart -->
+<button class="flex-1 h-12 rounded-lg bg-strawberry-rose text-on-primary font-label-lg text-label-lg tracking-wide hover:bg-primary transition-all duration-300 shadow-[0_8px_20px_rgba(216,74,110,0.28)] flex items-center justify-center gap-2" id="addToCartBtn" type="button">
+<span class="material-symbols-outlined text-[20px]">shopping_bag</span>
+<span>Añadir al Carrito — <span id="btnTotalText">$285.00 USD</span></span>
+</button>
+</div>
+<!-- Secondary Instant Buy -->
+<button class="w-full h-12 rounded-lg bg-chocolate-espresso text-cream-champagne font-label-lg text-label-lg hover:bg-chocolate-deep transition-colors shadow-md flex items-center justify-center gap-2" type="button">
+<span>Comprar Ahora con</span>
+<span class="font-bold tracking-tight">Apple Pay</span>
+</button>
+<!-- WhatsApp Customizer link -->
+<a class="w-full py-2.5 rounded-lg bg-cream-surface text-chocolate-espresso border border-chocolate-espresso/15 font-label-md text-label-md hover:bg-cream-champagne transition-colors flex items-center justify-center gap-2 text-center" href="https://wa.me/13156642576" target="_blank">
+<span class="material-symbols-outlined text-tertiary text-[18px]">chat</span>
+<span>¿Deseas personalizar paleta de rosas o colores? Chatear con la Diseñadora Floral</span>
+</a>
+</div>
+<!-- Luxury Guarantees Badges -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-3 border-t border-chocolate-espresso/8">
+<div class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-tertiary text-[20px] shrink-0 mt-0.5">verified_user</span>
+<div class="flex flex-col">
+<span class="font-title-md text-[13px] text-chocolate-espresso font-semibold leading-snug">Frescura Artesanal</span>
+<span class="font-body-sm text-[11px] text-secondary leading-tight">Elaboración 100% el mismo día</span>
+</div>
+</div>
+<div class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-tertiary text-[20px] shrink-0 mt-0.5">ac_unit</span>
+<div class="flex flex-col">
+<span class="font-title-md text-[13px] text-chocolate-espresso font-semibold leading-snug">Flota Climatizada</span>
+<span class="font-body-sm text-[11px] text-secondary leading-tight">Transporte refrigerado exclusivo en NYC</span>
+</div>
+</div>
+<div class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-tertiary text-[20px] shrink-0 mt-0.5">spa</span>
+<div class="flex flex-col">
+<span class="font-title-md text-[13px] text-chocolate-espresso font-semibold leading-snug">Callebaut Belga</span>
+<span class="font-body-sm text-[11px] text-secondary leading-tight">Fresas Grado A &amp; Chocolate puro</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- LUXURY TABS SPECIFICATION SECTION -->
+<section class="w-full bg-cream-surface border-y border-chocolate-espresso/8 py-16 mt-8">
+<div class="max-w-[1360px] mx-auto px-margin">
+<!-- Tab Triggers -->
+<div class="flex items-center gap-4 sm:gap-8 border-b border-chocolate-espresso/10 overflow-x-auto pb-px">
+<button class="tab-link pb-4 font-headline-sm text-[18px] sm:text-headline-sm text-chocolate-espresso border-b-2 border-strawberry-rose font-semibold transition-all whitespace-nowrap" onclick="switchTab('tab-details', this)">
+          Detalles &amp; Ingredientes
+        </button>
+<button class="tab-link pb-4 font-headline-sm text-[18px] sm:text-headline-sm text-secondary hover:text-chocolate-espresso border-b-2 border-transparent transition-all whitespace-nowrap" onclick="switchTab('tab-care', this)">
+          Conservación &amp; Degustación
+        </button>
+<button class="tab-link pb-4 font-headline-sm text-[18px] sm:text-headline-sm text-secondary hover:text-chocolate-espresso border-b-2 border-transparent transition-all whitespace-nowrap" onclick="switchTab('tab-shipping', this)">
+          Envíos &amp; Entrega Mismo Día NY
+        </button>
+<button class="tab-link pb-4 font-headline-sm text-[18px] sm:text-headline-sm text-secondary hover:text-chocolate-espresso border-b-2 border-transparent transition-all whitespace-nowrap" onclick="switchTab('tab-reviews', this)">
+          Reseñas de Clientes (48)
+        </button>
+</div>
+<!-- Tab Content Area -->
+<div class="py-8">
+<!-- 1. Details & Ingredients -->
+<div class="tab-pane flex flex-col lg:flex-row gap-10" id="tab-details">
+<div class="lg:w-2/3 flex flex-col gap-4 font-body-md text-body-md text-secondary leading-relaxed">
+<h3 class="font-headline-sm text-headline-sm text-chocolate-espresso">La Arquitectura Dulce de Ocean Song</h3>
+<p>
+              Inspirada en los tonos delicados del crepúsculo sobre la costa de Montauk, la torre <em>Ocean Song</em> fusiona la opulencia de la floristería fresca con la precisión de la bombonería belga. Cada fresa es seleccionada a mano bajo estrictos estándares de tamaño, frescura de cáliz y dulzor Brix natural.
+            </p>
+<p>
+              Las rosas de tonalidad blush y lavanda son esterilizadas y acondicionadas con cápsulas hidro-selladas de grado alimenticio para asegurar que permanezcan radiantes durante todo el evento sin tener contacto directo perjudicial con el chocolate.
+            </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
+<div class="p-4 rounded-xl bg-cream-champagne/80">
+<span class="font-title-md text-[15px] text-chocolate-espresso font-semibold block mb-1">Ingredientes Principales:</span>
+<ul class="text-[13px] list-disc list-inside space-y-1">
+<li>Fresas seleccionadas Grado A de huertos locales y California</li>
+<li>Chocolate de cobertura Callebaut Bélgica (54.5% cacao o manteca pura 100%)</li>
+<li>Pigmentos orgánicos naturales para tonos pastel</li>
+<li>Rosas vivas de invernadero aromáticas importadas</li>
+</ul>
+</div>
+<div class="p-4 rounded-xl bg-cream-champagne/80">
+<span class="font-title-md text-[15px] text-chocolate-espresso font-semibold block mb-1">Alérgenos &amp; Certificaciones:</span>
+<ul class="text-[13px] list-disc list-inside space-y-1">
+<li>Contiene: Lácteos, soya (lecitina de girasol disponible por encargo)</li>
+<li>Libre de gluten (preparado en instalaciones sin harinas cruzadas)</li>
+<li>Certificación Kosher Dairy disponible bajo requerimiento previo</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="lg:w-1/3 bg-cream-champagne/50 p-6 rounded-2xl flex flex-col justify-between">
+<div>
+<span class="font-label-caps text-label-caps text-tertiary">GARANTÍA DE ARTESANO</span>
+<h4 class="font-headline-sm text-[20px] text-chocolate-espresso mt-1">Montado 3 Horas Antes</h4>
+<p class="font-body-sm text-body-sm text-secondary mt-2">
+                A diferencia de los arreglos comerciales masivos, cada torre Berryccino es erigida únicamente cuando la orden entra en su ventana de ruta, protegiendo el crujiente templado del chocolate belga.
+              </p>
+</div>
+<div class="pt-6 border-t border-chocolate-espresso/10 flex items-center gap-3">
+<span class="material-symbols-outlined text-strawberry-rose text-[32px]">workspace_premium</span>
+<span class="font-title-md text-[13px] text-chocolate-espresso">Certificado de Autenticidad y Frescura expedido en Brooklyn</span>
+</div>
+</div>
+</div>
+<!-- 2. Care Guide -->
+<div class="tab-pane hidden flex flex-col gap-6 font-body-md text-body-md text-secondary" id="tab-care">
+<h3 class="font-headline-sm text-headline-sm text-chocolate-espresso">Recomendaciones para el Disfrute Óptimo</h3>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="p-5 rounded-xl bg-cream-champagne/70 flex flex-col gap-2">
+<span class="material-symbols-outlined text-primary text-[28px]">thermostat</span>
+<h4 class="font-title-md text-chocolate-espresso font-semibold">Temperatura Ideal</h4>
+<p class="font-body-sm text-body-sm">
+                Mantener en habitación climatizada entre 16°C y 19°C (60°F - 66°F). Evitar la luz solar directa o corrientes de calor de chimeneas.
+              </p>
+</div>
+<div class="p-5 rounded-xl bg-cream-champagne/70 flex flex-col gap-2">
+<span class="material-symbols-outlined text-primary text-[28px]">timer</span>
+<h4 class="font-title-md text-chocolate-espresso font-semibold">Consumo Preferente</h4>
+<p class="font-body-sm text-body-sm">
+                Recomendamos disfrutar las fresas dentro de las primeras 24 a 36 horas tras la entrega para degustar el máximo crujido y jugosidad.
+              </p>
+</div>
+<div class="p-5 rounded-xl bg-cream-champagne/70 flex flex-col gap-2">
+<span class="material-symbols-outlined text-primary text-[28px]">kitchen</span>
+<h4 class="font-title-md text-chocolate-espresso font-semibold">Refrigeración</h4>
+<p class="font-body-sm text-body-sm">
+                Si requiere refrigerarse, conservar en su caja protectora. Retirar 20 minutos antes de servir para atemperar los matices del chocolate belga.
+              </p>
+</div>
+</div>
+</div>
+<!-- 3. Shipping & Same Day NY -->
+<div class="tab-pane hidden flex flex-col gap-6 font-body-md text-body-md text-secondary" id="tab-shipping">
+<h3 class="font-headline-sm text-headline-sm text-chocolate-espresso">Logística Exclusiva White-Glove en NY</h3>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+<div class="flex flex-col gap-3">
+<p>
+                Debido a la naturaleza escultural y la altura de nuestras torres, <strong>no utilizamos servicios de mensajería genéricos ni motocicletas</strong>. Todas nuestras entregas son efectuadas por chóferes capacitados en vans de temperatura controlada dotadas de amortiguación hidráulica especial.
+              </p>
+<ul class="text-[14px] space-y-2 list-disc list-inside">
+<li><strong>Manhattan &amp; Brooklyn:</strong> Mismo día para pedidos antes de las 4:00 PM.</li>
+<li><strong>Queens &amp; Staten Island:</strong> Mismo día con antelación mínima de 4 horas.</li>
+<li><strong>Long Island, Westchester &amp; New Jersey:</strong> Programación con 24 horas.</li>
+</ul>
+</div>
+<div class="bg-cream-champagne/80 p-6 rounded-xl flex flex-col justify-center gap-2">
+<span class="font-label-caps text-label-caps text-tertiary">SEGURO DE TRANSPORTE IMPECABLE</span>
+<p class="font-title-md text-[15px] text-chocolate-espresso">
+                Si por algún motivo extraordinario tu torre sufriera cualquier alteración estética durante el trayecto, nuestro equipo en Brooklyn la sustituirá de inmediato sin coste adicional.
+              </p>
+</div>
+</div>
+</div>
+<!-- 4. Reviews -->
+<div class="tab-pane hidden flex flex-col gap-6" id="tab-reviews">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-chocolate-espresso/10">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-chocolate-espresso">Experiencias de Nuestros Clientes</h3>
+<p class="font-body-sm text-body-sm text-secondary">48 valoraciones 5 estrellas de compradores confirmados</p>
+</div>
+<button class="px-5 py-2.5 rounded-lg bg-chocolate-espresso text-cream-champagne font-label-md text-label-md hover:bg-chocolate-deep transition-colors self-start" type="button">
+              Escribir una Reseña
+            </button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<!-- Review 1 -->
+<div class="p-5 rounded-xl bg-cream-champagne/60 flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-9 h-9 rounded-full bg-strawberry-blush flex items-center justify-center font-bold text-chocolate-espresso text-[13px]">
+                    SA
+                  </div>
+<div>
+<span class="font-title-md text-[14px] text-chocolate-espresso block">Sofía Albarrán</span>
+<span class="font-body-sm text-[11px] text-secondary">Upper East Side, Manhattan • Compra verificada</span>
+</div>
+</div>
+<div class="flex text-accent-gold text-[16px]">★★★★★</div>
+</div>
+<p class="font-body-sm text-body-sm text-chocolate-espresso leading-relaxed italic">
+                "La pedí para el baby shower de mi hermana y fue el centro absoluto de todas las miradas. Las fresas estaban increíblemente dulces y el chocolate lavanda tiene un sabor refinado único. Servicio de entrega de guante blanco puntualísimo."
+              </p>
+</div>
+<!-- Review 2 -->
+<div class="p-5 rounded-xl bg-cream-champagne/60 flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-9 h-9 rounded-full bg-accent-gold-light flex items-center justify-center font-bold text-chocolate-espresso text-[13px]">
+                    ML
+                  </div>
+<div>
+<span class="font-title-md text-[14px] text-chocolate-espresso block">Mateo L.</span>
+<span class="font-body-sm text-[11px] text-secondary">DUMBO, Brooklyn • Compra verificada</span>
+</div>
+</div>
+<div class="flex text-accent-gold text-[16px]">★★★★★</div>
+</div>
+<p class="font-body-sm text-body-sm text-chocolate-espresso leading-relaxed italic">
+                "Sorprendí a mi prometida en nuestro aniversario. Las rosas combinadas con las fresas son un detalle de lujo absoluto. Vale cada centavo por la presentación y la calidez del equipo al coordinar por WhatsApp."
+              </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CROSS-SELL / COMPLEMENTARY CELEBRATION SECTION -->
+<section class="max-w-[1360px] mx-auto px-margin py-16">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
+<div>
+<span class="font-label-caps text-label-caps text-tertiary tracking-widest uppercase">
+          Maridaje de Celebración
+        </span>
+<h2 class="font-headline-lg text-headline-lg text-chocolate-espresso mt-1">
+          Completa tu Celebración con Nuestra Pastelería Fina
+        </h2>
+</div>
+<a class="font-label-lg text-label-lg text-strawberry-rose hover:text-primary transition-colors flex items-center gap-1" href="#">
+<span>Explorar todo el salón dulce</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+<!-- 3-Item Luxury Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+<!-- Card 1: Pastel Imperial Fresas & Mascarpone -->
+<div class="group flex flex-col rounded-xl overflow-hidden bg-cream-surface border border-chocolate-espresso/8 shadow-[0_8px_24px_-4px_rgba(43,30,26,0.06)] hover:shadow-[0_16px_36px_-6px_rgba(43,30,26,0.12)] transition-all duration-400">
+<div class="relative aspect-square overflow-hidden bg-cream-champagne">
+<img alt="Pastel Imperial Fresas &amp; Mascarpone" class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBOUROzdtxGgjVADDJ-UmcCf8ejfnyS6tRT4O0KOtzuR3yJo3j--x_0JQSbWg7B8CN4PWRDgtgj_h5aS7qAwkfMqDKyrQH2AJ-dW-VttCD-v_xFidtV8uLKjH2pWtEzYhmzuUXJAlmgkzc5WqeYGrqfmfooskZnFnissjzYJcJWQPGyQ_6ujVngnJ5RNzwOoKu0cVwm4aW6_Hbhxc2JZ_HsD-TAXCfO3fDBBE8FoTt2_nnPiS46PyTRrw"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-cream-surface/90 text-chocolate-espresso font-label-caps text-[10px] backdrop-blur-md shadow-xs">
+            PASTELERÍA ARTESANAL
+          </span>
+</div>
+<div class="p-6 flex flex-col justify-between flex-1">
+<div class="flex flex-col gap-1.5">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-[20px] text-chocolate-espresso group-hover:text-strawberry-rose transition-colors">
+                Pastel Imperial Fresas &amp; Mascarpone
+              </span>
+</div>
+<p class="font-body-sm text-body-sm text-secondary line-clamp-2">
+              Bizcocho húmedo de vainilla Bourbon con capas de crema batida de mascarpone y fresas naturales de estación.
+            </p>
+</div>
+<div class="pt-5 mt-4 border-t border-chocolate-espresso/8 flex items-center justify-between">
+<span class="font-title-lg text-title-lg font-bold text-chocolate-espresso">$85.00 <span class="font-normal text-[13px] text-secondary">USD</span></span>
+<button class="px-4 py-2 rounded-lg bg-cream-champagne hover:bg-strawberry-rose hover:text-on-primary text-chocolate-espresso font-label-md text-label-md transition-all shadow-xs" type="button">
+              Añadir a la orden
+            </button>
+</div>
+</div>
+</div>
+<!-- Card 2: Caja de Aniversario Letras & Números -->
+<div class="group flex flex-col rounded-xl overflow-hidden bg-cream-surface border border-chocolate-espresso/8 shadow-[0_8px_24px_-4px_rgba(43,30,26,0.06)] hover:shadow-[0_16px_36px_-6px_rgba(43,30,26,0.12)] transition-all duration-400">
+<div class="relative aspect-square overflow-hidden bg-cream-champagne">
+<img alt="Caja de Aniversario Letras &amp; Números" class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuARX2oXRNvpHVHqN-k0evKjX2w9f_LUguWLW8jJKX6i1J1rqGFNcpr_4HpO0M_YxdtoYBRwtscf2ajehPQvGxJsPzIxlpW-uQqD1bOGiQyQRMjvNRuPxwxh3fKpLcnziEQvTRnCpRfqyTIEJBosOksVB7LRhekoIlDFGLKNGv1m3y4fqM0J_QmvgYhG8epaSnuS_0roRdl4OgrHnsI8ytlv7TWLN12Kc8z2_Vy7X0siIjGZL_4vFwurbw"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-chocolate-espresso text-cream-champagne font-label-caps text-[10px] shadow-xs">
+            100% PERSONALIZABLE
+          </span>
+</div>
+<div class="p-6 flex flex-col justify-between flex-1">
+<div class="flex flex-col gap-1.5">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-[20px] text-chocolate-espresso group-hover:text-strawberry-rose transition-colors">
+                Caja de Aniversario Letras &amp; Números
+              </span>
+</div>
+<p class="font-body-sm text-body-sm text-secondary line-clamp-2">
+              Formas numéricas o iniciales forradas con fresas de chocolate pastel, macarons franceses y mini rosas de invernadero.
+            </p>
+</div>
+<div class="pt-5 mt-4 border-t border-chocolate-espresso/8 flex items-center justify-between">
+<span class="font-title-lg text-title-lg font-bold text-chocolate-espresso">$120.00 <span class="font-normal text-[13px] text-secondary">USD</span></span>
+<button class="px-4 py-2 rounded-lg bg-cream-champagne hover:bg-strawberry-rose hover:text-on-primary text-chocolate-espresso font-label-md text-label-md transition-all shadow-xs" type="button">
+              Añadir a la orden
+            </button>
+</div>
+</div>
+</div>
+<!-- Card 3: Bouquet Comestible Flores & Fresas Rubí -->
+<div class="group flex flex-col rounded-xl overflow-hidden bg-cream-surface border border-chocolate-espresso/8 shadow-[0_8px_24px_-4px_rgba(43,30,26,0.06)] hover:shadow-[0_16px_36px_-6px_rgba(43,30,26,0.12)] transition-all duration-400">
+<div class="relative aspect-square overflow-hidden bg-cream-champagne">
+<img alt="Bouquet Comestible Flores &amp; Fresas Rubí" class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCa2FEMje2JoBUPrOGKGa8cMjA7cFuXFnhDbYD07wHr3X8tpMqWk_YIHGMtj_tNA6vjsEwPiAshpVnZ2s2Qm9GM3M83CpO1ZeaO8rBHC1Ymwl8YraB1SKDdmX_RvUfENHzrFAZGCXhjyVjdcDN81ZF2rvyAKltpQyzua3_oCgOza7Jmuou1zPvC0VKkVlaWkX_LQxeJjqErijedG43L5B8gysjk9Qc4ss0XloIRWMnE9pJvIErb1KPzjA"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-strawberry-rose text-on-primary font-label-caps text-[10px] shadow-xs">
+            FAVORITO DE REGALO
+          </span>
+</div>
+<div class="p-6 flex flex-col justify-between flex-1">
+<div class="flex flex-col gap-1.5">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-[20px] text-chocolate-espresso group-hover:text-strawberry-rose transition-colors">
+                Bouquet Comestible Flores &amp; Fresas Rubí
+              </span>
+</div>
+<p class="font-body-sm text-body-sm text-secondary line-clamp-2">
+              Ramillete envuelto a mano en papel satinado rosa mate, combinando fresas artesanales con rosas pastel de tallo fino.
+            </p>
+</div>
+<div class="pt-5 mt-4 border-t border-chocolate-espresso/8 flex items-center justify-between">
+<span class="font-title-lg text-title-lg font-bold text-chocolate-espresso">$95.00 <span class="font-normal text-[13px] text-secondary">USD</span></span>
+<button class="px-4 py-2 rounded-lg bg-cream-champagne hover:bg-strawberry-rose hover:text-on-primary text-chocolate-espresso font-label-md text-label-md transition-all shadow-xs" type="button">
+              Añadir a la orden
+            </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive JavaScript Controller for PDP Configuration -->
+<script>
+    let basePrice = 285.00;
+    let quantity = 1;
+
+    function updateMainImage(src, btn) {
+      const mainImg = document.getElementById('mainPdpImage');
+      mainImg.src = src;
+      document.querySelectorAll('.thumb-btn').forEach(el => {
+        el.classList.remove('ring-2', 'ring-strawberry-rose');
+        el.classList.add('ring-1', 'ring-chocolate-espresso/10');
+      });
+      btn.classList.remove('ring-1', 'ring-chocolate-espresso/10');
+      btn.classList.add('ring-2', 'ring-strawberry-rose');
+    }
+
+    function selectSize(radio, labelText) {
+      basePrice = parseFloat(radio.value);
+      document.querySelectorAll('.size-card').forEach(card => {
+        card.classList.remove('is-active', 'border-2', 'border-strawberry-rose', 'shadow-md');
+        card.classList.add('border', 'border-chocolate-espresso/10');
+      });
+      const parentCard = radio.closest('.size-card');
+      parentCard.classList.remove('border', 'border-chocolate-espresso/10');
+      parentCard.classList.add('is-active', 'border-2', 'border-strawberry-rose', 'shadow-md');
+      updateTotalCost();
+    }
+
+    function setChocVariant(btn, name) {
+      document.querySelectorAll('.choc-chip').forEach(chip => {
+        chip.className = 'choc-chip px-4 py-2 rounded-full font-label-md text-label-md bg-cream-surface text-chocolate-espresso border border-chocolate-espresso/15 hover:border-chocolate-espresso/30 transition-all';
+      });
+      btn.className = 'choc-chip px-4 py-2 rounded-full font-label-md text-label-md bg-chocolate-espresso text-on-secondary shadow-sm transition-all';
+      document.getElementById('selectedChocLabel').textContent = name;
+    }
+
+    function adjustQty(delta) {
+      quantity = Math.max(1, quantity + delta);
+      document.getElementById('qtyVal').textContent = quantity;
+      updateTotalCost();
+    }
+
+    function updateTotalCost() {
+      let extra = 0;
+      const topper = document.getElementById('addonTopper');
+      const bow = document.getElementById('addonBow');
+      if (topper && topper.checked) extra += parseFloat(topper.value);
+      if (bow && bow.checked) extra += parseFloat(bow.value);
+
+      const totalPerUnit = basePrice + extra;
+      const grandTotal = totalPerUnit * quantity;
+
+      document.getElementById('displayPrice').innerHTML = `$${totalPerUnit.toFixed(2)} <span class="font-title-md text-title-md text-secondary font-normal">USD</span>`;
+      document.getElementById('btnTotalText').textContent = `$${grandTotal.toFixed(2)} USD`;
+    }
+
+    function switchTab(tabId, triggerBtn) {
+      document.querySelectorAll('.tab-pane').forEach(p => p.classList.add('hidden'));
+      document.querySelectorAll('.tab-link').forEach(btn => {
+        btn.classList.remove('text-chocolate-espresso', 'border-strawberry-rose', 'font-semibold');
+        btn.classList.add('text-secondary', 'border-transparent');
+      });
+
+      const selected = document.getElementById(tabId);
+      if (selected) selected.classList.remove('hidden');
+
+      triggerBtn.classList.remove('text-secondary', 'border-transparent');
+      triggerBtn.classList.add('text-chocolate-espresso', 'border-strawberry-rose', 'font-semibold');
+    }
+  </script>
+</div></main><footer class="w-full bg-cream-champagne text-chocolate-espresso mt-space-2xl shadow-[0_-1px_12px_rgba(43,30,26,0.04)]"><div class="max-w-[1360px] mx-auto px-margin pt-space-2xl pb-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-xl pb-space-2xl"><div class="flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Berryccino Logo" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Xd0c5IKKylahsQnqaZP4bl3zLvTHZTw3a6JbwTTelABrTiYaGWU5va12ymBpFch3TZ4jA2KV7dN0i0uT6ebgvt58Uj6xLeDdZwDe5ea7tQUi8YzPfgG7v2R0Q2n4pCPLX7M4urs-3GG7IpZYlPG3YNmZmn1kGDYgyhjIZggS7FC4rT4OtbGSLh7UWXpmr4MPeMouEeGKCO2njzzrg6wh9R50m-qqjQbiRPfdZB9wUxSaqyHWizA1R1L8TV"/><span class="font-headline-sm text-headline-sm text-chocolate-espresso">Berryccino</span></div><p class="font-body-sm text-body-sm text-secondary leading-relaxed">Arte comestible de lujo con fresas bañadas en chocolate belga de primera selección, arreglos florales artesanales y postres gourmet para celebraciones inolvidables en Nueva York.</p><div class="flex items-center gap-space-sm pt-space-xs"><span class="w-8 h-8 rounded-full bg-cream-surface flex items-center justify-center text-chocolate-espresso hover:bg-strawberry-blush hover:text-chocolate-deep transition-colors shadow-sm cursor-pointer"><span class="material-symbols-outlined text-[18px]">photo_camera</span></span><span class="w-8 h-8 rounded-full bg-cream-surface flex items-center justify-center text-chocolate-espresso hover:bg-strawberry-blush hover:text-chocolate-deep transition-colors shadow-sm cursor-pointer"><span class="material-symbols-outlined text-[18px]">play_circle</span></span><span class="w-8 h-8 rounded-full bg-cream-surface flex items-center justify-center text-chocolate-espresso hover:bg-strawberry-blush hover:text-chocolate-deep transition-colors shadow-sm cursor-pointer"><span class="material-symbols-outlined text-[18px]">share</span></span></div></div><div class="flex flex-col gap-space-sm"><h3 class="font-title-md text-title-md text-chocolate-espresso">Boutique &amp; Entregas</h3><p class="font-body-sm text-body-sm text-secondary flex items-start gap-space-xs"><span class="material-symbols-outlined text-[18px] text-tertiary mt-0.5">location_on</span><span>443 7th Ave, Brooklyn, NY 11215, United States</span></p><p class="font-body-sm text-body-sm text-secondary flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-tertiary">schedule</span><span>Lunes a Domingo: 8:00 AM – 8:00 PM</span></p><p class="font-body-sm text-body-sm text-secondary flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-tertiary">phone</span><span>+1 (315) 664-2576</span></p><p class="font-body-sm text-body-sm text-secondary flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-tertiary">local_shipping</span><span>Servicio Same-Day NYC &amp; Envíos Tri-State</span></p></div><div class="flex flex-col gap-space-sm"><h3 class="font-title-md text-title-md text-chocolate-espresso">Experiencia &amp; Ayuda</h3><div class="flex flex-col gap-space-xs"><a class="font-body-sm text-body-sm text-secondary hover:text-strawberry-rose transition-colors" data-path="preguntas-frecuentes" href="#">Preguntas Frecuentes</a><a class="font-body-sm text-body-sm text-secondary hover:text-strawberry-rose transition-colors" data-path="pedidos-corporativos" href="#">Eventos &amp; Pedidos Corporativos</a><a class="font-body-sm text-body-sm text-secondary hover:text-strawberry-rose transition-colors" data-path="guia-de-cuidados" href="#">Guía de Conservación del Chocolate</a><a class="font-body-sm text-body-sm text-secondary hover:text-strawberry-rose transition-colors" data-path="politicas-de-entrega" href="#">Políticas de Entrega y Envíos</a><a class="font-body-sm text-body-sm text-secondary hover:text-strawberry-rose transition-colors" data-path="terminos-y-condiciones" href="#">Términos &amp; Privacidad</a></div></div><div class="flex flex-col gap-space-sm"><h3 class="font-title-md text-title-md text-chocolate-espresso">Club Berryccino</h3><p class="font-body-sm text-body-sm text-secondary">Suscríbete para recibir invitaciones a lanzamientos estacionales y un 10% de cortesía en tu primera orden de regalo.</p><div class="flex items-center gap-space-xs mt-space-xs"><input class="bg-cream-surface text-chocolate-espresso font-body-sm text-body-sm px-space-md py-2 rounded-lg flex-1 focus:outline-none focus:ring-2 focus:ring-strawberry-rose/30 shadow-inner" placeholder="Tu correo electrónico" type="email"/><button class="bg-strawberry-rose text-on-primary font-label-md text-label-md px-space-md py-2 rounded-lg hover:bg-primary transition-colors shadow-sm" type="button">Unirme</button></div><div class="pt-space-sm"><p class="font-label-caps text-label-caps text-secondary mb-1.5">MÉTODOS DE PAGO SEGURO</p><div class="flex items-center gap-space-xs flex-wrap"><span class="px-2 py-1 bg-cream-surface rounded font-label-caps text-[10px] text-chocolate-espresso shadow-sm">APPLE PAY</span><span class="px-2 py-1 bg-cream-surface rounded font-label-caps text-[10px] text-chocolate-espresso shadow-sm">VISA</span><span class="px-2 py-1 bg-cream-surface rounded font-label-caps text-[10px] text-chocolate-espresso shadow-sm">MASTERCARD</span><span class="px-2 py-1 bg-cream-surface rounded font-label-caps text-[10px] text-chocolate-espresso shadow-sm">AMEX</span></div></div></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md text-secondary font-body-sm text-body-sm"><p>© 2025 Berryccino LLC. Todos los derechos reservados. Hecho con pasión artesanal en Brooklyn, NY.</p><div class="flex items-center gap-space-md"><a class="hover:text-chocolate-espresso transition-colors" data-path="terminos-y-condiciones" href="#">Privacidad</a><span>•</span><a class="hover:text-chocolate-espresso transition-colors" data-path="terminos-y-condiciones" href="#">Condiciones del Servicio</a><span>•</span><a class="hover:text-chocolate-espresso transition-colors" data-path="catalogo" href="#">Boutique Virtual</a></div></div></div></footer></body></html>
